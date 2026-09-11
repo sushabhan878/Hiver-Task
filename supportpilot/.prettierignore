@@ -1,0 +1,14 @@
+# Prettier ignores: never format Python, data, caches, or generated reports
+*.py
+cache/
+data/
+reports/
+.pytest_cache/
+__pycache__/
+*.ipynb
+*.jsonl
+*.parquet
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

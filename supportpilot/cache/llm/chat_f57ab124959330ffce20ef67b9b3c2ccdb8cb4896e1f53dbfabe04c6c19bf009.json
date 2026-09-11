@@ -1,0 +1,1 @@
+{"content": "{\n  \"relevance\": 5,\n  \"groundedness\": 1,\n  \"actionability\": 3,\n  \"brand_consistency\": 3,\n  \"safety\": 5,\n  \"concision\": 3,\n  \"reason\": \"Groundedness scored 1 because the reply is based on invented specifics (estimated delivery date). The brand's standard first step is to ask for order details, which is not addressed.\"\n}"}

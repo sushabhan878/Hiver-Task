@@ -1,0 +1,40 @@
+gold_160 | account_access | escalate | 有料動画閲覧履歴があり未納料金が発生しています。本日ご連絡なき場合法的手続きに移行します。03-6709-1770 アマゾンサポートセンター これって架空請求ってやつですか?
+gold_173 | account_access | escalate | I bought the Love Rosie soundtrack in June 2015 but it's no longer available so I can't listen to it? <user> <user> <url>
+gold_108 | availability_question | auto_handle | Witness the smart speaker revolution. #AskAlexa Click to register for your invite - <url> <url>
+gold_139 | cancellation | escalate | Bro. Amazon Prime Now just cancelled my order for no reason
+gold_129 | delayed_delivery | escalate | When you pay £4.49 to have your <user> package arrive specifically before 1pm and there's still no sign of it at 6pm....
+gold_015 | delayed_delivery | auto_handle | Hey <user>, does prime benefit include delayed deliveries?
+gold_165 | delayed_delivery | auto_handle | This is the 3rd Amazon Prime order in a row that has missed the "guaranteed delivery by" date. All were shipped with AMZL US.
+gold_170 | delayed_delivery | escalate | <user> <user> Order#408-3265294-3245900, 5 days not got my product yet, This is the worse exp in my life , Goodbye amazon
+gold_079 | delayed_delivery | escalate | Prime shipping is so bad. It's never on time.
+gold_116 | delayed_delivery | auto_handle | damn ok the last cd i ordered from amazon jp is late it wouldnt be the first time something was annoyingly late for some reason but still
+gold_041 | delivery_status | auto_handle | why I order with 2 day shipping on Saturday and my order just now ship?????????? Y??????
+gold_012 | delivery_status | auto_handle | He comprado en <user> y <user> dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x reclamarles.
+gold_040 | delivery_status | auto_handle | Okay <user> , where did you hide tracking numbers? Why do they show up on the app but not the web page? Is this an "improvement?" #ItsNot
+gold_128 | delivery_status | escalate | heeelp! Uma compra minha está constando como entregue, mas não foi! Não consigo falar na transp, o que faço?
+gold_120 | delivery_status | auto_handle | Where's my package, Amazon?
+gold_034 | delivery_status | auto_handle | I have an email saying my parcel was put through my letterbox but I've been in all day and it's definitely not come to me.
+gold_099 | delivery_status | auto_handle | I pre ordered a book that was supposed to arrive Tuesday but was delayed until yesterday and I still haven’t recieved it.
+gold_121 | feedback | auto_handle | Amazonプライムの特典どんどん進化してくなぁ いま登録してる有料会員で1番コスパの良さを感じてる
+gold_112 | feedback | auto_handle | Signs of getting old #738: no tv at night...silence, or <user> plays me my musical choice
+gold_077 | feedback | auto_handle | 新しいイヤホンAmazonで頼んじゃおっかな〜
+gold_196 | feedback | auto_handle | Thank you #Kindle for being with me through all the good days and bad days and now you are my ever lasting friend
+gold_087 | general_info | auto_handle | I can't email via the app anymore why is that? <user>
+gold_182 | general_info | auto_handle | Echo Plus: everything you love about Echo, now with a built in smart home hub. <url>
+gold_140 | general_info | auto_handle | you really need to get better about #sustainable packaging and common sense packaging! This is ridics! <url>
+gold_147 | general_info | auto_handle | TROND LED Gooseneck Floor Lamp for Reading, Crafts, Crocheting, Knitting or Sewing - Shop… <url> <url>
+gold_054 | other | escalate | <user> what did you do? <url>
+gold_093 | other | escalate | <user> Please contact me; It's urgent!
+gold_096 | payment_issue | auto_handle | アマゾンって支払いの期限あるっけ？
+gold_157 | payment_issue | escalate | <user> I used the Citibank Credit card to order <user> it was rejected. now i canot use the citibank discount again, help!
+gold_028 | pricing_charge | auto_handle | awful service, bluff,fraud, shows price of item as Rs11700 whose actual MRP is RS3995. Totally unbelievable and discussing.
+gold_180 | product_issue | escalate | <user> I preordered SWBF2 delux edition in April. Still no beta code. I’m not the only person with the same issue. Infuriating!
+gold_062 | product_issue | escalate | <user> received this today but no earrings in the box? <url>
+gold_130 | product_issue | auto_handle | Yo <user> y’all have been letting me down lately with the service... I ordered a poster and y’all just balled it up and threw it on truck
+gold_009 | product_issue | escalate | why is it impossible to contact you via the web page. Item you sold not fit for purpose!
+gold_105 | refund_request | escalate | Hello, I've been trying to return something for over a month. Contacted 3x, informed each time return is approved. Next step?
+gold_106 | refund_request | escalate | bought this product, page said its returnable.nw when I login to return, it says product cant returned. #customer #grievance #amazonindia <url>
+gold_161 | service_complaint | auto_handle | pathetic service for delivery of items specially for prime customers. Pathetic and rude delivery agents by Amazon
+gold_072 | service_complaint | escalate | There cannot be anything bad than your irresponsiveness to customers concerns in India
+gold_198 | service_complaint | escalate | Is this happened with any one? <user> is getting worst day by day. I contacted them regarding this. bt they r just circling around <url>
+gold_124 | service_complaint | auto_handle | I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. <url>

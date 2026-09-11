@@ -1,0 +1,1 @@
+{"content": "{\n  \"relevance\": 5,\n  \"groundedness\": 1,\n  \"actionability\": 5,\n  \"brand_consistency\": 5,\n  \"safety\": 5,\n  \"concision\": 3,\n  \"reason\": \"The reply is relevant, but the groundedness is 1 because it invents a specific URL for reporting the issue. The brand consistency, actionability, and safety are all 5, and the concision is 3.\"\n}"}

@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# SupportPilot .gitignore
+# NOTE: cache/index/* (embedding matrix + example bank) and cache/llm/* are
+# intentionally COMMITTED so that `make reproduce` meets the PRD's 15-minute
+# budget on cold clone. Delete them to force full recomputation (~20 min).
+# ---------------------------------------------------------------------------
+
+# --- data: raw + interim are rebuilt from mirrors; processed golden data IS
+# committed for reproducibility (see data/processed notes in README).
+data/raw/*.parquet
+data/interim/
+# committed for the 15-minute reproduction budget:
+# - data/processed/retrieval_cases_labelled.jsonl (LLM-labelled corpus)
+# - data/processed/{conversations,retrieval_cases,golden_pool,validation}.jsonl
+#   are rebuilt quickly from raw (~1 min) but are small; regenerate is cheap.
+# hand-labelled golden data IS committed (data/golden/*.jsonl, review sheets)
+# derived but committed for reproducibility: golden_set.jsonl
+
+# --- generated evaluation artifacts (regenerate with make evaluate)
+reports/predictions.json
+reports/agent_traces.json
+
+# --- Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+.python-version
+
+# --- environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# --- tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+cache/llm/tmp/
+pip-wheel-metadata/
+
+# --- temporary local scripts (project convention)
+.tmp_*.py
+.tmp_*.json
+
+# --- notebooks checkpoints
+.ipynb_checkpoints/
+
+# --- editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+desktop.ini
+$RECYCLE.BIN/
+
+# --- node (prettier layer runs via npx, no committed lockfile)
+node_modules/
+package-lock.json

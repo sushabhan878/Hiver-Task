@@ -1,0 +1,196 @@
+{
+  "total_failures": 145,
+  "mode_counts": {
+    "intent_misclassification": 94,
+    "over_escalation": 94,
+    "missed_escalation": 6
+  },
+  "representative": {
+    "intent_misclassification": [
+      {
+        "example_id": "gold_047",
+        "text": "またAmazonに騙された(´•ω•｀)お金返ってくればいいな",
+        "gold_intent": "other",
+        "pred_intent": "general_info",
+        "intent_conf": 0.2869,
+        "gold_action": "escalate",
+        "pred_action": "escalate",
+        "escalation_reason": "LOW_INTENT_CONFIDENCE",
+        "automation_score": 0.6104,
+        "modes": [
+          "intent_misclassification"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "example_id": "gold_180",
+        "text": "<user> I preordered SWBF2 delux edition in April. Still no beta code. I’m not the only person with the same issue. Infuriating!",
+        "gold_intent": "product_issue",
+        "pred_intent": "delivery_status",
+        "intent_conf": 0.4353,
+        "gold_action": "escalate",
+        "pred_action": "escalate",
+        "escalation_reason": "LOW_INTENT_CONFIDENCE",
+        "automation_score": 0.7024,
+        "modes": [
+          "intent_misclassification"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "example_id": "gold_197",
+        "text": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+        "gold_intent": "service_complaint",
+        "pred_intent": "delayed_delivery",
+        "intent_conf": 1.0,
+        "gold_action": "escalate",
+        "pred_action": "auto_handle",
+        "escalation_reason": null,
+        "automation_score": 0.9,
+        "modes": [
+          "intent_misclassification",
+          "missed_escalation"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "over_escalation": [
+      {
+        "example_id": "gold_076",
+        "text": "os itens que tem \"Elegível Frete Grátis\" significa que o item tem frete grátis certo? Ao finalizar sempre vem cobrando frete.",
+        "gold_intent": "general_info",
+        "pred_intent": "delivery_status",
+        "intent_conf": 0.297,
+        "gold_action": "auto_handle",
+        "pred_action": "escalate",
+        "escalation_reason": "LOW_INTENT_CONFIDENCE",
+        "automation_score": 0.6539,
+        "modes": [
+          "intent_misclassification",
+          "over_escalation"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "example_id": "gold_090",
+        "text": "Biggest discount lightning deal on <user> save you Rs.1 Lightning deals are becoming jokes <url> <url>",
+        "gold_intent": "pricing_charge",
+        "pred_intent": "pricing_charge",
+        "intent_conf": 0.4764,
+        "gold_action": "auto_handle",
+        "pred_action": "escalate",
+        "escalation_reason": "LOW_INTENT_CONFIDENCE",
+        "automation_score": 0.6667,
+        "modes": [
+          "over_escalation"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "example_id": "gold_194",
+        "text": "Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>",
+        "gold_intent": "pricing_charge",
+        "pred_intent": "pricing_charge",
+        "intent_conf": 1.0,
+        "gold_action": "auto_handle",
+        "pred_action": "escalate",
+        "escalation_reason": "UNSUPPORTED_GENERATED_CLAIM:escalation_promise",
+        "automation_score": 0.85,
+        "modes": [
+          "over_escalation"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "missed_escalation": [
+      {
+        "example_id": "gold_146",
+        "text": "??? <url>",
+        "gold_intent": "other",
+        "pred_intent": "other",
+        "intent_conf": 0.6971,
+        "gold_action": "escalate",
+        "pred_action": "auto_handle",
+        "escalation_reason": null,
+        "automation_score": 0.794,
+        "modes": [
+          "missed_escalation"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "example_id": "gold_054",
+        "text": "<user> what did you do? <url>",
+        "gold_intent": "other",
+        "pred_intent": "other",
+        "intent_conf": 0.7418,
+        "gold_action": "escalate",
+        "pred_action": "auto_handle",
+        "escalation_reason": null,
+        "automation_score": 0.8096,
+        "modes": [
+          "missed_escalation"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "example_id": "gold_197",
+        "text": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+        "gold_intent": "service_complaint",
+        "pred_intent": "delayed_delivery",
+        "intent_conf": 1.0,
+        "gold_action": "escalate",
+        "pred_action": "auto_handle",
+        "escalation_reason": null,
+        "automation_score": 0.9,
+        "modes": [
+          "intent_misclassification",
+          "missed_escalation"
+        ],
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "top_confusions": [
+    {
+      "gold": "feedback",
+      "pred": "general_info",
+      "count": 9
+    },
+    {
+      "gold": "delayed_delivery",
+      "pred": "delivery_status",
+      "count": 9
+    },
+    {
+      "gold": "service_complaint",
+      "pred": "delayed_delivery",
+      "count": 6
+    },
+    {
+      "gold": "general_info",
+      "pred": "delivery_status",
+      "count": 6
+    },
+    {
+      "gold": "service_complaint",
+      "pred": "delivery_status",
+      "count": 5
+    },
+    {
+      "gold": "other",
+      "pred": "general_info",
+      "count": 4
+    },
+    {
+      "gold": "product_issue",
+      "pred": "delivery_status",
+      "count": 3
+    },
+    {
+      "gold": "product_issue",
+      "pred": "service_complaint",
+      "count": 3
+    }
+  ]
+}

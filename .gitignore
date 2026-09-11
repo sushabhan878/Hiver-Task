@@ -1,0 +1,40 @@
+@"
+# Large raw datasets (>100MB exceeds GitHub limits)
+data/raw/*.parquet
+data/interim/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Tooling and caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+cache/llm/tmp/
+
+# Temporary scratch scripts
+.tmp_*.py
+.tmp_*.json
+
+# Generated reports
+reports/predictions.json
+reports/agent_traces.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding utf8

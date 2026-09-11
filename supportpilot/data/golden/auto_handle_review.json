@@ -1,0 +1,152 @@
+[
+ {
+  "example_id": "gold_012",
+  "customer_message": "He comprado en <user> y <user> dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x reclamarles.",
+  "reply": "Hola, parece que tu situación es similar a las que hemos atendido antes. ¿Podrías verificar si el pedido fue gestionado por Amazon o por un vendedor? ¿Cuál era la fecha de entrega que tenías programada? Si necesitas ayuda para contactar con ellos, podemos asistirte con eso.",
+  "score": 0.886
+ },
+ {
+  "example_id": "gold_016",
+  "customer_message": "Amazon Echo with Alexa. It’s here. #AskAlexa <url>",
+  "reply": "For your inquiry about the availability of the Alexa app in India, you can refer to the link provided earlier: <url>. They will be available in the App Store/Play Store when devices start shipping around Oct 30. Please keep an eye on your inbox for any future invites.",
+  "score": 0.7958
+ },
+ {
+  "example_id": "gold_022",
+  "customer_message": "<user> where is my order. 6 tym calld custmr srvc no solution. Updated address 2 tym and everytime i am at home still this.... <url>",
+  "reply": "I understand you're concerned about the status of your order. Please use the link below to check your order details and tracking information: <url>. If you continue to have issues, we recommend reaching out to our support team for further assistance.",
+  "score": 0.8104
+ },
+ {
+  "example_id": "gold_028",
+  "customer_message": "awful service, bluff,fraud, shows price of item as Rs11700 whose actual MRP is RS3995. Totally unbelievable and discussing.",
+  "reply": "I understand your concern about the pricing discrepancy. The prices displayed are set by the sellers. If you have any further issues, please visit the help link for more assistance.",
+  "score": 0.8086
+ },
+ {
+  "example_id": "gold_034",
+  "customer_message": "I have an email saying my parcel was put through my letterbox but I've been in all day and it's definitely not come to me.",
+  "reply": "I understand you're concerned about your parcel. Let's check your delivery status to see where your package is. Please visit the tracking link provided in your email to check the current status: <url>",
+  "score": 0.886
+ },
+ {
+  "example_id": "gold_040",
+  "customer_message": "Okay <user> , where did you hide tracking numbers? Why do they show up on the app but not the web page? Is this an \"improvement?\" #ItsNot",
+  "reply": "I understand your concern about the inconsistent tracking information. If you haven't already, you can check with USPS to get the most accurate information. If you need further assistance, please provide your order details so we can look into it further.",
+  "score": 0.9
+ },
+ {
+  "example_id": "gold_051",
+  "customer_message": "it's been at the same facility since yesterday morning. just give it to me na. i'm a prime customer and all. pls na. <url>",
+  "reply": "Hi, it sounds like your package is still at the facility. To help us track this, could you please check the current status of your package's tracking: <url> If you haven't already, you can also provide us with your order details for further assistance.",
+  "score": 0.8113
+ },
+ {
+  "example_id": "gold_054",
+  "customer_message": "<user> what did you do? <url>",
+  "reply": "I'm sorry to hear about your concern. Please provide your order details so we can assist you better. You can check your order details here: <url>.",
+  "score": 0.8096
+ },
+ {
+  "example_id": "gold_068",
+  "customer_message": "order#405-7050434-0533931 it was supposed to deliver today now it's showing it will be delivered by tomorrow?wt is use of prime",
+  "reply": "We understand your concern. Could you please check your order's tracking information to see when it was shipped and when it's expected to arrive? You can view your tracking here: <url> If you're still experiencing issues, we recommend reaching out to our customer support team for further assistance.",
+  "score": 0.7953
+ },
+ {
+  "example_id": "gold_075",
+  "customer_message": "AEEEEE PARABENS PELO MÊSVERSARIO DE ATRASO <user> *---* HÁ UM MES Meu pedido era para ter sido entregue e até Hoje nada !!!!",
+  "reply": "Olá, <user>. Infelizmente, não há informações suficientes para ajudar neste momento. Podemos verificar sua entrega novamente. Você pode verificar o status do seu pedido no site da Amazon e verificar a sua localização atual. Se ainda não receber o seu pedido, você pode entrar em contato novamente com o suporte.",
+  "score": 0.8101
+ },
+ {
+  "example_id": "gold_084",
+  "customer_message": "If this kind of fraud Amazon done in USA, Gov block the company <user> <user> <user> <user>",
+  "reply": "I understand your concern about potential fraud. If you have any specific details about the issue you're experiencing, we can certainly look into it. Please feel free to share any order details or information you have. If you haven't already, you can report this to our support team by visiting <url>.",
+  "score": 0.7976
+ },
+ {
+  "example_id": "gold_091",
+  "customer_message": "first time using Amazon, but i ordered something and it was supposed to arrive today but it still not here??",
+  "reply": "Hi, it sounds like your package is still on its way. Could you please check the delivery status by visiting your account and looking at the tracking information? If you haven't already, we can provide you with the link to check the status here: <url>. If you still have issues, we can escalate this to a human agent for further assistance.",
+  "score": 0.8085
+ },
+ {
+  "example_id": "gold_101",
+  "customer_message": "Man... my <user> package has been \"preparing\" for almost two days straight now... getting really #worried it won't \"arrive tomorrow\"",
+  "reply": "I understand you're concerned about your package's delivery status. Let's check the latest tracking information. Please visit the tracking page: <url> and let us know if there's any update. If you need further assistance, feel free to reach out.",
+  "score": 0.8241
+ },
+ {
+  "example_id": "gold_104",
+  "customer_message": "when you order one day shipping on Wednesday and the package won't be here till Monday thanks",
+  "reply": "I understand your concern. Could you please check your order status here: <url> for the most accurate delivery date?",
+  "score": 0.7953
+ },
+ {
+  "example_id": "gold_116",
+  "customer_message": "damn ok the last cd i ordered from amazon jp is late it wouldnt be the first time something was annoyingly late for some reason but still",
+  "reply": "I understand you're experiencing some delays with your order. To help us better, could you please check your order tracking information and let us know the most recent status: <url>",
+  "score": 0.886
+ },
+ {
+  "example_id": "gold_118",
+  "customer_message": "<user> I ordered one sennheiser headphone which suppose to deliver today, till now nothing is done",
+  "reply": "We apologize for the delay in your order. Could you please provide your order number so we can check the delivery status for you?",
+  "score": 0.7488
+ },
+ {
+  "example_id": "gold_146",
+  "customer_message": "??? <url>",
+  "reply": "We understand you're experiencing some issues. If you're having trouble with a specific product, could you provide more details about what's not working for you? If you're unsure, we recommend checking your device's settings or contacting customer support directly.",
+  "score": 0.794
+ },
+ {
+  "example_id": "gold_168",
+  "customer_message": "Hallo <user> - die Idee mit dem eigenen Logistikservice war eine Schnappsidee. Verspätet und unfreundliche Fahrer. Katastrophe.",
+  "reply": "Hallo, es tut mir leid zu hören, dass du mit dem eigenen Logistikservice Probleme hast. Bitte gib mir die Sendungsnummer, damit wir die Lage besser verstehen können. Möchtest du eine Ersatzlieferung oder eine Erstattung erhalten?",
+  "score": 0.7446
+ },
+ {
+  "example_id": "gold_177",
+  "customer_message": "My item arrives early in Edinburgh, great its only 12 miles to my house. Then we see the incompetent planning where my jacket goes to Dundee 49 miles North. Where it still has to come to me another 49",
+  "reply": "I understand you're experiencing some confusion with your delivery route. Could you please check your delivery tracking to see if there are any updates? If you're still unsure, we can look into your order details further. Please provide your order number so we can assist you better.",
+  "score": 0.7443
+ },
+ {
+  "example_id": "gold_178",
+  "customer_message": "Hi, as a usually-happy customer, am not very happy today. I ordered 2 books on Monday, Prime 1-day. Now Friday &amp; still not here?",
+  "reply": "Oh no, I understand you're disappointed. Have you checked the latest tracking information yet? You can view it here: <url> If it still hasn't arrived by tomorrow, let us know and we can look into it further.",
+  "score": 0.7906
+ },
+ {
+  "example_id": "gold_181",
+  "customer_message": "I'm going out of state from today evening &amp; I don't have any good neighbor to receive my package so I urge you to deliver my (1/2)",
+  "reply": "I understand you're in a bit of a bind. Have you set up a Safe Place for your delivery here: <url>",
+  "score": 0.7011
+ },
+ {
+  "example_id": "gold_182",
+  "customer_message": "Echo Plus: everything you love about Echo, now with a built in smart home hub. <url>",
+  "reply": "We understand you're interested in the Echo Plus. We typically send out a limited number of invitations each week. Please keep an eye on your inbox for the invitation. If you have any other questions, feel free to ask.",
+  "score": 0.7463
+ },
+ {
+  "example_id": "gold_192",
+  "customer_message": "Awesome offer from <user> <user> <user> 32GB Class10 Microsd Card only Rs.23,934 <url>",
+  "reply": "Prices are set by the sellers. Our current prices are the best we can offer.",
+  "score": 0.8105
+ },
+ {
+  "example_id": "gold_194",
+  "customer_message": "Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>",
+  "reply": "I understand your concern about the pricing. It seems like there might be a discrepancy in the current sale pricing. I'll escalate this to the relevant team for review. Please keep your order details handy for further assistance.",
+  "score": 0.9
+ },
+ {
+  "example_id": "gold_197",
+  "customer_message": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+  "reply": "I understand this was a frustrating experience. Could you please provide more details about the order and the delivery date you were provided with during checkout? We'd like to look into this further for you.",
+  "score": 0.9
+ }
+]

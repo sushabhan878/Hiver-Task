@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  lint:
+    name: Lint & format (ruff)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install lint tooling
+        run: pip install ruff
+      - name: Ruff lint
+        run: ruff check src scripts tests
+      - name: Ruff format check
+        run: ruff format --check src scripts tests
+
+  typecheck:
+    name: Type check (mypy)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install project + type tooling
+        run: pip install -r requirements.txt mypy types-pyyaml types-requests
+      - name: Mypy
+        run: mypy src
+
+  tests:
+    name: Tests (${{ matrix.os }}, py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest pytest-cov
+      - name: Environment sanity check (no Ollama needed)
+        run: python -m scripts.check_env --help
+      - name: Run tests with coverage
+        run: python -m pytest tests -q --cov=src --cov-report=term-missing
+      - name: Upload coverage artifact
+        if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: .coverage
+          retention-days: 7
+
+  smoke:
+    name: Warm-cache reproduction smoke test
+    runs-on: ubuntu-latest
+    # Runs only when the committed caches are present; keeps the PRD's
+    # 15-minute reproduction guarantee honest.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Verify committed artifacts (fast, no Ollama)
+        run: |
+          python - <<'EOF'
+          import sys
+          sys.path.insert(0, ".")
+          from src.data.loader import read_jsonl
+          n_cases = sum(1 for _ in read_jsonl("data/processed/retrieval_cases_labelled.jsonl"))
+          n_golden = sum(1 for _ in read_jsonl("data/golden/golden_set.jsonl"))
+          print(f"retrieval cases: {n_cases}, golden: {n_golden}")
+          assert n_cases > 1000 and n_golden > 100, "committed artifacts missing"
+          EOF
+      - name: Evaluation integrity tests
+        run: python -m pytest tests/test_evaluation_integrity.py -q

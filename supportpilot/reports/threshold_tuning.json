@@ -1,0 +1,10 @@
+{
+  "n_validation": 1126,
+  "n_gated_pool": 81,
+  "score_percentiles": {
+    "p25": 0.7906,
+    "p50": 0.8086,
+    "p75": 0.8258
+  },
+  "chosen_auto_threshold": 0.79
+}

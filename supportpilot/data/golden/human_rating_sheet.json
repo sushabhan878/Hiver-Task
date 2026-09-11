@@ -1,0 +1,1002 @@
+[
+ {
+  "example_id": "gold_192",
+  "customer_message": "Awesome offer from <user> <user> <user> 32GB Class10 Microsd Card only Rs.23,934 <url>",
+  "agent_reply": "Prices are set by the sellers. Our current prices are the best we can offer.",
+  "evidence_preview": [
+   {
+    "problem": "WTF .. KAUNSA AISA COMPANY HAI JO 1290 MA 32GB SD CARD PRICE KARTHAI . STOP TRAP",
+    "response": "We constantly receive new data from our suppliers &amp; our prices are set by th"
+   },
+   {
+    "problem": "reduce the price of iphone 6 32gb rs 20999 for 5 munuts i really want to buy <us",
+    "response": "to offer you the lowest price, may result in fluctuations in our prices over tim"
+   },
+   {
+    "problem": "Wow..Got the phone from <user> with special offer valid till 8th October. InFocu",
+    "response": "Glad you received your order. Thank you for keeping us posted. ^SB"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_040",
+  "customer_message": "Okay <user> , where did you hide tracking numbers? Why do they show up on the app but not the web page? Is this an \"improvement?\" #ItsNot",
+  "agent_reply": "I understand your concern about the inconsistent tracking information. We've seen similar issues before and we're here to help. Have you tried contacting USPS for the most up to date information?",
+  "evidence_preview": [
+   {
+    "problem": "so <user> i did the <user> Love Yourself: Her preorder on 8/28 &amp; THIS is wha",
+    "response": "I'm sorry for the bad experience. You can see your options for return here: <url"
+   },
+   {
+    "problem": "Hey, #amazon what with the bogus tracking numbers recently? If a package trackin",
+    "response": "Sorry for the frustrations, Matt. We're here to help! Who's the carrier of the p"
+   },
+   {
+    "problem": "<user> I received a notification that my package was delivered today, but I don'",
+    "response": "I'm so sorry for the inconvenience! Have you tried contacting USPS for the most "
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_186",
+  "customer_message": "<user> - this is what u deliver for fresh veggies <user> ...ridiculous <url>",
+  "agent_reply": "Oh no, it sounds like there's been an issue with your order. We'd like to take a closer look. Please provide your order details so we can assist you better: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Third failed delivery from <user>. This is getting ridiculous. <url>",
+    "response": "Oh no... We'd like to take a closer look from our department. Please provide you"
+   },
+   {
+    "problem": "Uhhhhh. Nah. Not fresh. <user> <url> Thanks! Customer service took care of us. #",
+    "response": "I'm sorry the bananas arrived like this! Please reach out to us here so we can l"
+   },
+   {
+    "problem": "Got my <user> fresh delivery: my bananas and peppers are bad... and the squash n",
+    "response": "Oh my, that's not good! We'd like to help; please contact us so we can review av"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_116",
+  "customer_message": "damn ok the last cd i ordered from amazon jp is late it wouldnt be the first time something was annoyingly late for some reason but still",
+  "agent_reply": "I understand your frustration with the delay. Please check your order tracking to see the most recent update: <url>",
+  "evidence_preview": [
+   {
+    "problem": "ordered item on Thurs for prime delivery Fri. Still not here. No notification th",
+    "response": "Sorry to hear that, what's the current status of the tracking: <url> ^JJ"
+   },
+   {
+    "problem": "I ordered something on Amazon and paid extra to get it delivered the next day. N",
+    "response": "I'm sorry we've delayed your order, Jordan! Please phone us here: <url> to discu"
+   },
+   {
+    "problem": "Still waiting for a package from Amazon. Is almost one month late. Never happene",
+    "response": "I'm sorry for the wait! We're here to help. To confirm, was your order placed on"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_133",
+  "customer_message": "They cancelled my Amazon order for the ADSOM Collector's Edition Pre-ordered it months ago and now I need to order elsewhere <url>",
+  "agent_reply": "I understand you're having trouble with the cancellation of your order. Could you please provide your order number so we can look into this for you?",
+  "evidence_preview": [
+   {
+    "problem": ".<user> After your help person told me my order could not be canceled after it w",
+    "response": "Thank you for contacting us on Twitter. Without providing any account info, will"
+   },
+   {
+    "problem": "Still no delivery date to the item I pre-ordered, that came out yesterday <user>",
+    "response": "Were you given a new delivery date in an email? ^KM"
+   },
+   {
+    "problem": "amazon keeps messing up my her order i got one email saying it was cancelled but",
+    "response": "Oh my! What does your order status show here: <url> Let us know! ^KJ"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_054",
+  "customer_message": "<user> what did you do? <url>",
+  "agent_reply": "I'm sorry to hear about your concerns. Please provide more details so we can assist you better.",
+  "evidence_preview": [
+   {
+    "problem": "Wat do u mean <user> where did we go wrong. You provide such a pathetic service ",
+    "response": "I beg your pardon. We're following up on your concern. We'll update you soon. ^S"
+   },
+   {
+    "problem": "<user> <user> <url>",
+    "response": "We've responded to your query here: <url> ^HD"
+   },
+   {
+    "problem": "<user> <url>",
+    "response": "I'd like to look into the issue and assist you with it. Please provide your deta"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_016",
+  "customer_message": "Amazon Echo with Alexa. It’s here. #AskAlexa <url>",
+  "agent_reply": "For your query about the availability of the Alexa app in India, you can refer to the link provided earlier for more information.",
+  "evidence_preview": [
+   {
+    "problem": "What time is the cricket match?#AskAlexa To know more visit: <url> <url> When is",
+    "response": "The Alexa app will be available in the App Store / Play Store when the devices s"
+   },
+   {
+    "problem": "selling Echo devices without Alexa app for India.. how am I to use it at all!? W",
+    "response": "kindly refer the link here: <url> 2/2 ^EM"
+   },
+   {
+    "problem": "<url> <user> Ordered my Echo..Eagerly waiting to try the 'Alexa' ..Hope it compl",
+    "response": "Congratulations!!! I'm sure you're gonna enjoy it. Now I'm jealous. ^HA"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_123",
+  "customer_message": "Really <user>? Paying for music unlimited only allows me ONE stream? Really???",
+  "agent_reply": "I understand your concern. Music Unlimited is designed to allow for one stream per device. Is this not what you expected?",
+  "evidence_preview": [
+   {
+    "problem": "Hey <user> - I somehow missed the Music Unlimited promotion. If I sign up now ca",
+    "response": "I'm sorry you missed the promotion, Andrew! Keep an eye on the site for any upda"
+   },
+   {
+    "problem": "Hey <user> <user> Your new Echo's can stream music in multi rooms, does this wor",
+    "response": "Hey, great question! This should work if your model has the latest firmware upda"
+   },
+   {
+    "problem": "I have music unlimited for echo/dot, I'm trying to play songs on my Sonos, and s",
+    "response": "Sorry to hear this. Please contact us directly here: <url> and we can look into "
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_064",
+  "customer_message": "Over a month for an item. Now I can't cancel it because it contributed to free postage on other items. That's not my fault!",
+  "agent_reply": "I understand your concern. However, based on the historical cases provided, there is no direct match for your issue regarding the cancellation of an order that contributed to free postage. I recommend escalating this to a human agent for further assistance.",
+  "evidence_preview": [
+   {
+    "problem": "How have <user> charged me twice for an item they said they were going to cancel",
+    "response": "I'm sorry for the unexpected charge! We'd like to help! What's the status of the"
+   },
+   {
+    "problem": "I really hate how <user> tricks you will \"want free 2-day shipping?\" and then ch",
+    "response": "Hey Laura, we're sorry for any inconvenience! To cancel your membership, please "
+   },
+   {
+    "problem": "Please check if you can cancel my order and process a refund. Guaranteed deliver",
+    "response": "An automated correspondence has been to your registered email ID. Kindly check i"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_001",
+  "customer_message": "I’ve literally just watched this come through my door, why couldn’t your driver knock and deliver? <url>",
+  "agent_reply": "I'm sorry for the inconvenience with your delivery. We'd like to take a closer look at this. Please reach out to us here: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Just had a delivery attempted email. 1) I am in, next to the door 2) it will fit",
+    "response": "I'm so sorry for this experience! We'd like to take a closer look at this. Pleas"
+   },
+   {
+    "problem": "Absolutely disgusted with <user> delivery driver. Didn't even come to my door, b",
+    "response": "I'm sorry for the delivery issues! We'd like to look into this, if you'd please "
+   },
+   {
+    "problem": "why did you deliver this to our neighbour rather than putting it through the doo",
+    "response": "I'm sorry it was delivered that way! Please contact in with the link so we can g"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_008",
+  "customer_message": "Your delivery times are now officially worse than the previously dreaded cable appointment windows. Already 1 day late and it’s 6pm.",
+  "agent_reply": "We're sorry to hear about the delay in your delivery. What is the current status of your order showing: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Amazon has 1 minute to deliver my package It’s now half an hour late wtf <user> ",
+    "response": "We'd like to help anyway we can. Who's the carrier set to deliver it: <url> ^GG"
+   },
+   {
+    "problem": "I ordered something on Amazon and paid extra to get it delivered the next day. N",
+    "response": "I'm sorry we've delayed your order, Jordan! Please phone us here: <url> to discu"
+   },
+   {
+    "problem": "Smh still waiting for my package from <user> suppose to be here yesterday and it",
+    "response": "We're sorry for the long wait! What is the current status of your order showing:"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_145",
+  "customer_message": "Kann man schon sagen, wann #Grimm Staffel 6 in deutsch über #AmazonPrime verfügbar sein wird?",
+  "agent_reply": "Leider liegen noch keine Informationen vor. Bleib einfach bei uns und du verpasst Nichts.",
+  "evidence_preview": [
+   {
+    "problem": "Ab wann ist denn die 3 Staffel von Lucifer auf deutsch verfügbar? Okay, schade",
+    "response": "Hierzu liegen uns leider keine Infos vor. Bitte behalte die Webseite im Auge :) "
+   },
+   {
+    "problem": "gibt's ne Chance, dass #AkteX Staffel 1-10 bald zweisprachig (DE/EN) wird? Würd ",
+    "response": "Ich leite deinen Wunsch gerne weiter, kann dir jedoch leider nichts versprechen "
+   },
+   {
+    "problem": "Das Beste an Amazonlisten ist übrigens, wenn man sieht, dass etwas bestellt wurd",
+    "response": "Hier kann dir nur der Besteller Auskunft geben. Aus Datenschutzgründen dürfen wi"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_101",
+  "customer_message": "Man... my <user> package has been \"preparing\" for almost two days straight now... getting really #worried it won't \"arrive tomorrow\"",
+  "agent_reply": "I understand your concern. Could you please check the latest tracking information for your package: <url> If you have any updates, let us know.",
+  "evidence_preview": [
+   {
+    "problem": "I loved <user> &amp; i hate it I was supposed to get my package by Sep. 26 &amp;",
+    "response": "I'm sorry for the poor experience, Monica! Were you given an updated estimated d"
+   },
+   {
+    "problem": "So <user> is really bad with their \"next day deliveries\", it's been two days sin",
+    "response": "Oh no! We'd like to help. What's the latest tracking showing here: <url> ^NM"
+   },
+   {
+    "problem": "My package was supposed to arrive 3 Days ago! <user>",
+    "response": "So sorry about your late order! Who was the carrier? You can find out here: <url"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_134",
+  "customer_message": "サドル Amazonで長男がポチッとなしてくれました <url>",
+  "agent_reply": "ご迷惑をおかけして申し訳ありません。ケースが破損していた場合、Amazon発送商品についてはサイト上より交換もしくは返品を承ります。お手数ですが以下リンクをご参照ください。",
+  "evidence_preview": [
+   {
+    "problem": "Amazon最高かよ。 <url>",
+    "response": "ありがとうございます!! どうぞお楽しみください <url> RI"
+   },
+   {
+    "problem": "Amazonから頼んでもないものがきた <url>",
+    "response": "ご迷惑をおかけしております。実際には注文していない商品が届いた場合には、カスタマーサービスでお調べいたします。お手数ですが、以下URLよりお問い合わせください。"
+   },
+   {
+    "problem": "姉ちゃんにイヤホン買ってあげたー Amazonで頼んだから箱がデカいってゆうねww <url>",
+    "response": "ご利用いただきありがとうございます。箱が大きかったとのこと、ご不便をおかけいたしました。梱包に関しまして、サービス向上のため、よろしければ以下リンクよりお客様の"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_090",
+  "customer_message": "Biggest discount lightning deal on <user> save you Rs.1 Lightning deals are becoming jokes <url> <url>",
+  "agent_reply": "I understand your concern about the fluctuation in prices during lightning deals. We appreciate your feedback and will share it internally. However, we don't have sufficient information to resolve this issue further without more details.",
+  "evidence_preview": [
+   {
+    "problem": ".<user> Your lightning deals now are changing prices while Checkout. When it's m",
+    "response": "May result in fluctuation of prices over time. Appreciate your understanding. (2"
+   },
+   {
+    "problem": "Lightning deal indeed #AmazonGreatIndianFestival <user> <url>",
+    "response": "The prices are slashed already. However, I'll ensure to share your feedback inte"
+   },
+   {
+    "problem": "Awesome offer by <user> !!! A grand discount of Re 1 in lightning deal! <url> Yo",
+    "response": "receive from our sellers. Appreciate your understanding in this concern. (2/2) ^"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_120",
+  "customer_message": "Where's my package, Amazon?",
+  "agent_reply": "Uh oh! Sometimes packages are left out of sight. Have you checked the areas and information here: <url> ?",
+  "evidence_preview": [
+   {
+    "problem": "Hey <user> where's my package? Not in my possession. #thishappenseverytime #AMZL",
+    "response": "I'm sorry! Our team would like to ensure this is addressed. Please provide some "
+   },
+   {
+    "problem": "where my package fam???",
+    "response": "Let's investigate! Can you tell us what the tracking shows here: <url> ? ^LB"
+   },
+   {
+    "problem": "When your amazon package says that it's delivered but it's nowhere to be found",
+    "response": "Uh oh! Sometimes packages are left out of sight. Have you checked the areas and "
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_169",
+  "customer_message": "So it looks like <user> doesn’t tape up both sides of #Prime orders anymore. It’s just open, time to check if stuff is missing or broken. <url>",
+  "agent_reply": "I understand your concern about the delivery times for Prime orders. Have you had a chance to report these occurrences with us?: <url>",
+  "evidence_preview": [
+   {
+    "problem": ".<user> #Prime has been missing that 2-Day “Guarantee” more and more. Second tim",
+    "response": "I'm sorry for any trouble, Tim. Have we been missing the estimated delivery date"
+   },
+   {
+    "problem": "Yo <user>, why am I paying for prime when you can’t seem to get anything here on",
+    "response": "Sorry for the delay Mike! We'll have it with you as soon as we can. ^RL"
+   },
+   {
+    "problem": "Anyone else having issues with <user> missing delivery times lately? 5 prime ord",
+    "response": "Oh no! Have you had a chance to report these occurrences with us: <url> ^GM"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_157",
+  "customer_message": "<user> I used the Citibank Credit card to order <user> it was rejected. now i canot use the citibank discount again, help!",
+  "agent_reply": "I understand your concern. Could you please provide your order number so we can look into this further? Without your order details, I'm unable to provide a specific resolution.",
+  "evidence_preview": [
+   {
+    "problem": "Order no 4__credit_card__ is undeliverable, msg shwng as rejected by me. I haven",
+    "response": "order details, as we consider it to be personal information. Our Twitter page is"
+   },
+   {
+    "problem": "<user> need help for getting deal.I have already cancelled order but now again o",
+    "response": "Let me help you out. Please reach us via <url> and we'll look into this for you."
+   },
+   {
+    "problem": "who do we contact for help w our account? tired to sign up using a Citibank card",
+    "response": "We'd love to try to help out! Without giving any account specific info, what see"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_022",
+  "customer_message": "<user> where is my order. 6 tym calld custmr srvc no solution. Updated address 2 tym and everytime i am at home still this.... <url>",
+  "agent_reply": "I understand your frustration. Please use the link provided to update your details: <url>. I'll escalate this to our team for further assistance.",
+  "evidence_preview": [
+   {
+    "problem": "<user> everytime product is out for delivery but didnt reach me. Updated addrss ",
+    "response": "Sorry about that. Please fill in your details using the link: <url> I'll get in "
+   },
+   {
+    "problem": "<user> Where the hell is my product?? Why is it updated as delivered when I have",
+    "response": "We've responded to you here: <url> ^SG"
+   },
+   {
+    "problem": "my order still hasn’t reached me ?!!! <url>",
+    "response": "Please don't provide your tracking details, we consider it personal information."
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_027",
+  "customer_message": "I have not yet received my product but <user> <user> <user> updated it as delivered #poorservice #Irresponsible <url>",
+  "agent_reply": "I understand your concern. Please provide your order details so we can investigate this issue further. If you haven't received your product, we'll look into why the delivery status was updated as delivered and address the confusion. Please report this to our support team here: <url> and we'll look into this.",
+  "evidence_preview": [
+   {
+    "problem": "<user> Where the hell is my product?? Why is it updated as delivered when I have",
+    "response": "We've responded to you here: <url> ^SG"
+   },
+   {
+    "problem": "<user> <user> Status is updated as delivered but item is not delivered. #falseco",
+    "response": "That's odd, Sachin. Please report this to our support team here: <url> and we'll"
+   },
+   {
+    "problem": "I have not received this product and the app shows it’s delivered. whats the con",
+    "response": "..provide your order details as we consider them to be personal information. Our"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_018",
+  "customer_message": "Just got another email from <user> welcoming me to Prime, this time it seems I have no option to cancel now. What the fresh hell is this? <url>",
+  "agent_reply": "I understand you're frustrated. Could you please check if you received an email confirming the cancellation? If not, we can look into that for you.",
+  "evidence_preview": [
+   {
+    "problem": "Damnit <user>, you got me again. I really going to cancel #prime this time. <url",
+    "response": "We don't want you to feel that way! Can you please tell us what's going on? ^AH"
+   },
+   {
+    "problem": "Cancelled my Prime membership roughly 3 months ago, just noticed i've been charg",
+    "response": "Hi Josh, did you receive an email confirming the cancellation? Can you see an op"
+   },
+   {
+    "problem": "One more reason to cancel my <user> prime account, I got yelled at by the rep wh",
+    "response": "I'm so sorry! Please submit feedback on this using the survey link at the bottom"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_121",
+  "customer_message": "Amazonプライムの特典どんどん進化してくなぁ いま登録してる有料会員で1番コスパの良さを感じてる",
+  "agent_reply": "申し訳ございませんが、現在の件については似たようなケースが存在しません。ご質問の詳細や具体的な状況をもう少し教えていただけますか？必要に応じて、カスタマーサービスにご相談いただくことも検討いただけます。",
+  "evidence_preview": [
+   {
+    "problem": "Amazon、プライム会員1ヶ月無料体験にしてたら、解除し忘れて継続でそのままプライム会員になっちゃった:(´◦ω◦｀): 年会費引かれたから気付いた( 'ω'",
+    "response": "意図しない更新とのことではございますが、よろしければこちらのヘルプページもご参照いただき、特典をご活用いただけたら幸いです。<url> なお、年会費請求後特典の"
+   },
+   {
+    "problem": "amazonになんかしらんがパスが通らないなー サインインはされてるのに1クリック注文や普通に注文するときの確認の時に何度やってもパス違う言われる･･･ パスを",
+    "response": "一度パスワードを数字のみの簡易的なものにご変更のうえお試しください。サインインできた場合には再設定してください。問題が解決しない場合は、お手数ですがお電話でカス"
+   },
+   {
+    "problem": "Amazonまた何か始めたプライム会員なら無料で読んで良いの？ <url>",
+    "response": "はい！読んでいいんです！！！(๑•̀ㅁ•́๑) <url> ET"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_096",
+  "customer_message": "アマゾンって支払いの期限あるっけ？",
+  "agent_reply": "アマゾンでは支払いの期限はございません。支払いに関するご質問がございましたら、カスタマーサービスまでお問い合わせください。",
+  "evidence_preview": [
+   {
+    "problem": "は？アマゾンはそんなこと言わない。 <url> ありがとうございます。",
+    "response": "失礼いたします、Amazon公式です。ご認識のとおり、当サイトからそのようなメールをお送りすることはございません。当サイトをかたるフィッシング行為が増えているよ"
+   },
+   {
+    "problem": "アマゾンからの支払いメールまだ来ない わかりました。ありがとうございます。",
+    "response": "ご心配をおかけしております。お支払い番号は、商品が確保できしだい発行されますが、在庫ありの商品でもお時間がかかる場合があります。発行タイミングなど、お支払い番号"
+   },
+   {
+    "problem": "Amazonて、支払い 分割払いできたっけ？？",
+    "response": "突然失礼いたします、公式サポートアカウントです。申し訳ございませんが、Amazonでは分割払いをご利用いただくことはできません。＊当サイトでご利用いただける支払"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_041",
+  "customer_message": "why I order with 2 day shipping on Saturday and my order just now ship?????????? Y??????",
+  "agent_reply": "I understand your concern. Two-day shipping typically refers to the transit time after the order ships. Could you please check your tracking information to see when your order was shipped?",
+  "evidence_preview": [
+   {
+    "problem": ".<user> explain why im paying for 2-day shipping with prime but its oct. 5 &amp;",
+    "response": "Hi there! Two-Day shipping refers to the transit time, &amp; is calculated in bu"
+   },
+   {
+    "problem": "I paid for one day shipping and get the product 2.5 days later? <url> The produc",
+    "response": "Thanks for reaching out. The shipping speed refers to the time in transit after "
+   },
+   {
+    "problem": "Jst orderd a couple of thngs with my prime accnt and b4 order, delivery date was",
+    "response": "We've responded to your query over DM. Kindly check the same. ^AP"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_028",
+  "customer_message": "awful service, bluff,fraud, shows price of item as Rs11700 whose actual MRP is RS3995. Totally unbelievable and discussing.",
+  "agent_reply": "We understand your concern about the pricing discrepancy. Please visit the link for more information: <url>. Our team will review this issue internally.",
+  "evidence_preview": [
+   {
+    "problem": "<user> Hi There, Why is the <user> Wallet (R31792116) MRP:999 been shown more th",
+    "response": "receive from our sellers. You may also visit this link: <url> for more informati"
+   },
+   {
+    "problem": "What has changed? Today quick look shows it at Rs. 811.24. BUT no one selling th",
+    "response": "We'll get it reviewed by the concerned team internally. ^CA"
+   },
+   {
+    "problem": "Can <user> explain why this shoe is priced Rs 4999 when MRP is only Rs 3999? BTW",
+    "response": "and our efforts to offer you the lowest price, may result in fluctuations in our"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_108",
+  "customer_message": "Witness the smart speaker revolution. #AskAlexa Click to register for your invite - <url> <url>",
+  "agent_reply": "We send a limited number of invitations each week. Keep an eye on your inbox for the Echo Plus invite.",
+  "evidence_preview": [
+   {
+    "problem": "Thanks <user> for the invite.. That was quick.. #AmazonEcho <url>",
+    "response": "Congratulations for the invitation. Grab one soon. ^SH"
+   },
+   {
+    "problem": "#KaroMilkeTayyari to upgrade to smart technology. Get great deals on mobiles and",
+    "response": "If the details are shared, our team will reach out to you soon. Appreciate your "
+   },
+   {
+    "problem": ".<user> when am I getting that Echo plus invitation. my smart Hue lights are wai",
+    "response": "We send a limited number of invitations each week to customers, so keep an eye o"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_124",
+  "customer_message": "I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. <url>",
+  "agent_reply": "I understand your concern about the delivery status. It seems like the communication about the delivery location could be improved. I recommend reaching out to us directly to discuss this further: <url>.",
+  "evidence_preview": [
+   {
+    "problem": "Really wish <user> drivers would just not deliver instead of the fallacy of 'han",
+    "response": "HI, sorry to hear this. You can take a look at the provided link to help locate "
+   },
+   {
+    "problem": "then leaving the two parcels outside the front door but declaring it a safe plac",
+    "response": "I'm so terribly sorry! Please reach us directly so we can report to the carrier:"
+   },
+   {
+    "problem": "Why do <user> think it's ok to email saying parcel left with a resident yet it w",
+    "response": "I'm sorry for the poor communication. Have you reached out to us to submit carri"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_043",
+  "customer_message": "Recién llegaron / Just arrived; <user> <user> <url>",
+  "agent_reply": "Hola <user>, ¿puedes indicar si el producto es vendido y enviado por Amazon o por un vendedor? Esto nos ayudará a asistirte mejor.",
+  "evidence_preview": [
+   {
+    "problem": "Así como cuando estás emocionado porque te llegaron unos zapatos de <user> y te ",
+    "response": "Hola David, me apena mucho saber lo sucedido con este producto. ¿El producto es "
+   },
+   {
+    "problem": "Llegar a casa y encontrarte la felicidad... ¡gracias, <user>! Y a ti, también, <",
+    "response": "Nada mejor que una sorpresa que nos alegre el día , cuéntanos, Sergio, ¿Cuál lib"
+   },
+   {
+    "problem": "<user> <user> <url> Ansioso por qué llegué <url>",
+    "response": "Aaaaaah, ¿cómo se encuentra tu corazón en este momento? ^DA <url>"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_093",
+  "customer_message": "<user> Please contact me; It's urgent!",
+  "agent_reply": "I understand the urgency of your situation. Please provide your account details so we can assist you further. We consider account details to be personal information. [1/2]",
+  "evidence_preview": [
+   {
+    "problem": "can u people help me plz i am unable to contact you guys.Its really urgent no cu",
+    "response": "provide your account details as we consider them to be personal info. Our Twitte"
+   },
+   {
+    "problem": "<user> Can you deliver it before 11th oct? It's really urgent for me. <url>",
+    "response": "Please don’t provide your order details as we consider them to be personal info."
+   },
+   {
+    "problem": "<user> <user> facing problem with newly purchased note 4 , it's very urgent plea",
+    "response": "I'm sorry for the inconvenience. We'd like to help you out. Kindly reach out to "
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_050",
+  "customer_message": "Late deliveries are a normal occurrence, why are we wasting money paying for Prime? <url>",
+  "agent_reply": "Hi, understanding your frustration with delivery delays. Could you please specify if this is happening with a particular carrier or if you've noticed this issue with multiple carriers?",
+  "evidence_preview": [
+   {
+    "problem": "Yo <user>, why am I paying for prime when you can’t seem to get anything here on",
+    "response": "Sorry for the delay Mike! We'll have it with you as soon as we can. ^RL"
+   },
+   {
+    "problem": "Sat in all day to get a failed delivery attempt. Why do I pay for prime?!!",
+    "response": "Sorry to hear that. Get in touch here: <url> and we'll be happy to help. ^RS"
+   },
+   {
+    "problem": "why am I paying for Prime if none of my packages are going to arrive in 2 days a",
+    "response": "Hi, sorry to see that. How often has this happened recently? Do you notice issue"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_197",
+  "customer_message": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+  "agent_reply": "I'm sorry to hear about your experience, <user>. It sounds like a frustrating situation. Were you given a reason for the delivery delay? If not, we'd like to look into this further. Please provide any additional details you have, and we'll get back to you.",
+  "evidence_preview": [
+   {
+    "problem": "As if this birthday wasn't bad enough. <user> and <user> decide that NOT deliver",
+    "response": "I'm terribly sorry for the poor experience, Brian. Were you given a reason as to"
+   },
+   {
+    "problem": "Why do you use <user> for deliveries in NYC? They are useless! 2nd botched 1-day",
+    "response": "This is never our intent, we'd love to help out! What was the delivery date you "
+   },
+   {
+    "problem": "Absolutely disgusted with <user> delivery driver. Didn't even come to my door, b",
+    "response": "I'm sorry for the delivery issues! We'd like to look into this, if you'd please "
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_013",
+  "customer_message": "Para nuestro servicio de atención al cliente: <url> Y haced clic en \"Contacto\", a la derecha de la pantalla",
+  "agent_reply": "Lamento mucho que hayas tenido una experiencia desagradable. Por favor, envía tus datos aquí para que podamos reportar la situación: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Es la primera vez que un miembro del servicio de atención al cliente de <user> m",
+    "response": "Hola Vary, me apena mucho saber lo sucedido. Por favor envía tus datos aquí: <ur"
+   },
+   {
+    "problem": "así acaba en servicio de atención al cliente cuando pides un formulario de recla",
+    "response": "Lamento el inconveniente, Abel. Nos gustaría reportar lo sucedido. Escríbenos ac"
+   },
+   {
+    "problem": "Amazon entrega mi pedido a un vecino que ni conozco,sin mi permiso y poner una r",
+    "response": "Lamento esta experiencia. Recuerda que puedes reportar cualquier incidente con S"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_139",
+  "customer_message": "Bro. Amazon Prime Now just cancelled my order for no reason",
+  "agent_reply": "Hi, I understand you're experiencing issues with your Amazon Prime Now order. Have you checked if your Prime membership was properly cancelled? You can follow the steps on this link to cancel your membership: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Cancelled my Prime membership roughly 3 months ago, just noticed i've been charg",
+    "response": "Hi Josh, did you receive an email confirming the cancellation? Can you see an op"
+   },
+   {
+    "problem": "Why does your Prime Shipping suck so bad now. I can't get a single order deliver",
+    "response": "I'm sorry for any inconvenience! Have you reported this to us? Is there a curren"
+   },
+   {
+    "problem": "How do you cancel your amazon prime??! Lol thank you",
+    "response": "Hey there, let's follow the steps on here so we can cancel your membership: <url"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_091",
+  "customer_message": "first time using Amazon, but i ordered something and it was supposed to arrive today but it still not here??",
+  "agent_reply": "Hi, it seems your order is still in transit. Was your order fulfilled by Amazon or a third-party seller? Could you check the tracking information to see where your package is? If you haven't already, we can provide you with the tracking details.",
+  "evidence_preview": [
+   {
+    "problem": "I ordered something and it never arrived. Was supposed to be here Sept. 21 and n",
+    "response": "Hi, sorry to hear that, was your order sold/fulfilled by Amazon or a 3rd Party S"
+   },
+   {
+    "problem": "Hi, I didn't expect such service from amazon. I am expecting my product to be de",
+    "response": "Please don’t provide your order details as it is personal information. Our Twitt"
+   },
+   {
+    "problem": "My Amazon order still hasn't arrived yet... <user>",
+    "response": "Sorry to hear this. Have we missed the delivery date advised? ^PK"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_126",
+  "customer_message": "can’t believe amazon rejects negative delivery reviews .. only positive <url>",
+  "agent_reply": "I understand your concern, but based on the guidelines provided, negative reviews related to delivery issues are not accepted. You can find more details here: <url> If you have any further questions, I recommend reaching out to a human agent for more assistance.",
+  "evidence_preview": [
+   {
+    "problem": "If I give negative ratings as product reviews according to my experience, Amazon",
+    "response": "If the review doesn't adhere to the guidelines as mentioned here: <url> and we'l"
+   },
+   {
+    "problem": "Criticise all products but don’t comment amazon’s delivery &amp; shipment feedba",
+    "response": "I understand your concern. I'll forward your feedback to the team concerned for "
+   },
+   {
+    "problem": "Worst Amazon Services,,,They dont want to listen true.My true review they dont a",
+    "response": "I understand you are upset, Pawan. Request you to go through the Review guidelin"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_079",
+  "customer_message": "Prime shipping is so bad. It's never on time.",
+  "agent_reply": "I understand your frustration with Prime shipping not arriving on time. Have you reported this issue to us before?",
+  "evidence_preview": [
+   {
+    "problem": "keeps failing to deliver packages on time. Happened to my friend and to me separ",
+    "response": "I'm sorry we let you down! Did we provide a reason for the delay? ^TR"
+   },
+   {
+    "problem": "Why does your Prime Shipping suck so bad now. I can't get a single order deliver",
+    "response": "I'm sorry for any inconvenience! Have you reported this to us? Is there a curren"
+   },
+   {
+    "problem": "Ugh <user> please stop transferring my packages to <user> and calling it 2 day p",
+    "response": "I'm very sorry your packages have been late! Have you had a chance to phone us a"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_083",
+  "customer_message": "Why is it that despite having Prime, <user> insists on displaying these ads for itself on every single page I go to? <user> <url>",
+  "agent_reply": "We understand your frustration with the ads you're seeing. However, we can only address issues related to your Prime membership. Please provide more details on what specifically is not working for you with your Prime service, and we'll do our best to assist.",
+  "evidence_preview": [
+   {
+    "problem": "Dear <user> I am fed up with this and it happens everytime, I don't see the poin",
+    "response": "We apologize for the hassle. Allow our support team to investigate. You can repo"
+   },
+   {
+    "problem": "Yo <user>, why am I paying for prime when you can’t seem to get anything here on",
+    "response": "Sorry for the delay Mike! We'll have it with you as soon as we can. ^RL"
+   },
+   {
+    "problem": "How is this Prime? <url>",
+    "response": "Hey there! Two-Day shipping refers to transit time and does not include processi"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_195",
+  "customer_message": "hi amazon. Please can you send me a link to reach customer service? I’ve a problem with my order delivery. Thanks",
+  "agent_reply": "I understand you're having trouble with your order delivery. We'd be happy to assist you. Please click here to reach our customer service: <url>",
+  "evidence_preview": [
+   {
+    "problem": "could someone please help with a delivery that seems to have got lost? Tried to ",
+    "response": "Oh no! We'd be happy to look into this with you. When you have a chance, click h"
+   },
+   {
+    "problem": "I am not getting any support from the Amazon customer service are letting me dow",
+    "response": "I'd like to assist you with this, please share your details on the link here: <u"
+   },
+   {
+    "problem": "Customer Service sucks. The order was bundled with Amazon Gift card that sent to",
+    "response": "That's not the experience we like to hear about. Did we give a reason as to why "
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_113",
+  "customer_message": "Amazonから支払い番号のメールまだこねえ",
+  "agent_reply": "ご心配をおかけして申し訳ございません。支払い完了メールが届かない場合、お支払い確認メールが届くまでには数時間かかる場合があります。もし数時間経っても反映しない場合は、下記よりカスタマーサービスにお問い合わせください。",
+  "evidence_preview": [
+   {
+    "problem": "Amazonの支払い完了の通知がこねーよ",
+    "response": "ご心配をおかけしております。コンビニ払いでご入金済みの状況でしょうか。システム処理の都合上、お支払い完了後から支払い確認メールが送信されるまで数時間ほどお時間が"
+   },
+   {
+    "problem": "Amazonはよ支払い番号のメール送れよ ハープいつくんの？",
+    "response": "お支払い番号は、商品が確保でき出荷準備に入り次第、Eメールでお知らせします。ご案内のお届け予定日を目途にお待ちくださいませ。発行タイミングなど、詳細については以"
+   },
+   {
+    "problem": "Amazonの支払いが永遠に反応しないんだが 今支払い確認のメールが届きました お騒がせして申し訳ありません",
+    "response": "なお、数時間経過しても反映しない場合は、詳細を確認した上でご案内させていただきますので、恐れ入りますが、リンクよりカスタマーサービスにお問い合わせください。<u"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_098",
+  "customer_message": "i have not received my past 3 orders on time even though you guaranteed next day delivery...pls refund my prime membership",
+  "agent_reply": "I understand your concern. Our team will review your order and ensure it is processed correctly. Please report this to our support team here: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Once again....you guys won the battle...and I am not getting my order on time...",
+    "response": "I'm sorry about the trouble with the order. Please report this to our support te"
+   },
+   {
+    "problem": "yet another time i need something with my #prime membership and #amazon fails to",
+    "response": "I'm sorry your order is late. We are happy to look into your options with you he"
+   },
+   {
+    "problem": "4th time in a row <user> doesn’t deliver as promised. No point of having #Prime.",
+    "response": "Our apologies for the delay. Please reach us here: <url> and we'll check this fo"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_160",
+  "customer_message": "有料動画閲覧履歴があり未納料金が発生しています。本日ご連絡なき場合法的手続きに移行します。03-6709-1770 アマゾンサポートセンター これって架空請求ってやつですか?",
+  "agent_reply": "ご連絡ありがとうございます。本件は返品や返金に関するものではなく、料金未納のための法的手続きへの移行についてです。ご理解いただけますと幸いです。",
+  "evidence_preview": [
+   {
+    "problem": "あまぞんから荷物来ないなーと思ってたら返金手続き済み？になってる。理由がよくわからない。なんでだろ？ 返品の連絡は届いておりませんでした。昨日発送したとの連絡が",
+    "response": "ご不便をおかけしており申し訳ございません。注文に関するご案内はEメールにてお知らせをしておりますが、ご案内がない場合やEメールが確認できない場合、お手数ですが以"
+   },
+   {
+    "problem": "こんなメールがメッセージに届いた。 利用料金の精算確認が取れません。本日ご連絡なき場合、身辺調査及び法的措置に移行します。アマゾンジャパン（株）窓口 ( 電話番",
+    "response": "アマゾンです。ご認識の通り、お受取りになったSMSは当サイトからお送りしたものではございません。当サイトを装い個人情報を取得しようとする詐欺が発生しているようで"
+   },
+   {
+    "problem": "ミニスーファミ、返品騒動巻き込まれたなあ。予約したのに発売日当日に届かないあたり雲行き怪しかったし、返金されてもこっちが別店舗で再度探さなきゃならないんだと。こ",
+    "response": "このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日<url> SM"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_117",
+  "customer_message": "Hey <user>, your quality of perishables has gone down significantly, and prices gone up by up to 33% consistently, for everyday items.",
+  "agent_reply": "I understand your concerns about the quality of perishables and the price increases. However, based on the historical cases provided, none of them directly address issues with perishable quality or price fluctuations. I recommend escalating this to a human agent for further assistance.",
+  "evidence_preview": [
+   {
+    "problem": "Gone are the days of getting an <user> order in less then a week. Ordered Monday",
+    "response": "(2/2) If we’ve missed the date in our order confirmation e-mail, please let us k"
+   },
+   {
+    "problem": "what happened to <user> ? Over the past few months the quality dropped so much. ",
+    "response": "I'm very sorry! Under tracking info, are you noticing these issues with a partic"
+   },
+   {
+    "problem": "why <user> ? your content is very poor. you should increase the content atleast ",
+    "response": "We are always adding new content to the Amazon Prime Video library. I'll pass al"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_144",
+  "customer_message": "blunder, I have to pay ₹3250 more to give away my Nexus 5 in exchange offer. Instead ₹32,999 I have to pay ₹36,249 + my Nexus 5 <url>",
+  "agent_reply": "I understand your concern. The exchange offer for your Nexus 5 resulted in a higher price. Please check the email for the details of the offer. If you have any further issues, please connect with our support team.",
+  "evidence_preview": [
+   {
+    "problem": "Cancelled my Order without my Concern #WorstService I dont know all that Whateve",
+    "response": "Sorry about this inconvenience. Canceled orders are followed by an email with re"
+   },
+   {
+    "problem": "hi i bought oneplus 5 in exchange scheme by mistake i took 64 gb instead 128 gb ",
+    "response": "We'd like to get this checked, please connect with our support team here: <url> "
+   },
+   {
+    "problem": "How's this possible? Almost ₹17k #offer from the original price. <user> how can ",
+    "response": "Prices are set by the sellers.The prices displayed currently are the best we can"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_173",
+  "customer_message": "I bought the Love Rosie soundtrack in June 2015 but it's no longer available so I can't listen to it? <user> <user> <url>",
+  "agent_reply": "I understand you're having trouble accessing your purchased soundtrack. I'll escalate this to a human agent for further assistance as the issue seems to require more detailed investigation.",
+  "evidence_preview": [
+   {
+    "problem": "So glad I'm wasting money on <user> so that I can pay for music that I can't lis",
+    "response": "I'm sorry your music isn't playing! Without posting personal info, can you tell "
+   },
+   {
+    "problem": "I want to purches this shoes. But it is not available from last two month. <url>",
+    "response": "I'll ensure to pass you recommendation internally. We'll work on it. ^CB"
+   },
+   {
+    "problem": "<user> <user> am I being gypped???? I barely had amazon music for even a week an",
+    "response": "Hmm..that's odd. We'd like to take a closer look at this with you. Please reach "
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_125",
+  "customer_message": "i have won Prime week quiz contest day 3 winner, 5th july, but till now i dint receive the amazon pay balance #amazon #amazonindia",
+  "agent_reply": "We understand your concern. However, based on the historical cases provided, there is no direct precedent for a refund request for a Prime Week quiz contest winner. Please provide your Amazon Pay balance details so we can further assist you. We will direct you to the appropriate team for further action if needed.",
+  "evidence_preview": [
+   {
+    "problem": "If I add Rs.500 in my Amazon pay balance. How much amount will I get as cash bac",
+    "response": "(2/2) Click here: <url> for details. ^HK"
+   },
+   {
+    "problem": "#AmazonFestiveRiddles Waiting for my diwali gift and to be the lucky one Happy d",
+    "response": "Thanks for the shout out! We will try our best we can in delivering the product "
+   },
+   {
+    "problem": "Congratulations Harish Kalokhe! You are the lucky winner of an iPhone 7! #KaroMi",
+    "response": "Apologies. Please drop in the details here : <url> We'll get back to you. ^CA"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_194",
+  "customer_message": "Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>",
+  "agent_reply": "I understand your concern about the pricing. However, based on the historical cases, there is no clear precedent for addressing price fluctuations during sales events. I recommend escalating this issue to a human agent for further assistance.",
+  "evidence_preview": [
+   {
+    "problem": "I really enjoyed the fastival i.e., The Great Indian festival.I had bought some ",
+    "response": "I have a question for you, what is that one order that has you most excited? We'"
+   },
+   {
+    "problem": "#AmazonIndia Dear thanks for making fool. Ordered headphone in sale but today re",
+    "response": "Sorry about the bad experience, Yogesh. I'll be sure to forward your feedback in"
+   },
+   {
+    "problem": "What has changed? Today quick look shows it at Rs. 811.24. BUT no one selling th",
+    "response": "We'll get it reviewed by the concerned team internally. ^CA"
+   }
+  ],
+  "pred_action": "auto_handle"
+ },
+ {
+  "example_id": "gold_073",
+  "customer_message": "No refund of my money since one month, name mismatch in cheque and bank a/c <user> order no #403-8295304-4660353",
+  "agent_reply": "We understand your concern regarding the delay in refund. Please share your order details via the link shared by our colleague 'YP', and we will check this for you.",
+  "evidence_preview": [
+   {
+    "problem": "Order date 03-Sep-2017 Order # 403-5721092-5101156 Dear team Check and refund my",
+    "response": "Please don't provide your order details, we consider it personal information. Ou"
+   },
+   {
+    "problem": "my refund on Order# 404-5098246-7969104 from <user> not received over a month si",
+    "response": "Our Twitter page is public.​ 3/3^EM"
+   },
+   {
+    "problem": "<user> <user> ..for Order # 403-0554005-7221167 since last one month. 2/3",
+    "response": "Kindly share the details via the link shared by my colleague \"YP\", we'll check t"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_048",
+  "customer_message": ".<user> i’ve been hacked. these mugs are ugly and i don’t leave reviews <url>",
+  "agent_reply": "I understand you're having trouble with your account. Please give us a call here to discuss further: <url>",
+  "evidence_preview": [
+   {
+    "problem": "This is why I don’t trust <user> reviews ! <url>",
+    "response": "We ask that the review be about the item itself. Shipping and seller experiences"
+   },
+   {
+    "problem": "are a jokeeee. I've been hacked and now I have to sort it myself despite there b",
+    "response": "I'm sorry you're having trouble with your account. Please click the link to cont"
+   },
+   {
+    "problem": "Dear <user> my account officially has been hacked. I've NEVER purchased this or ",
+    "response": "Please give us a call here: <url> so we can look into this with you. ^TR"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_136",
+  "customer_message": "my kindle is not working and I find no Amazon service center in Hyderabad. Need help :(",
+  "agent_reply": "I understand your concern. Please click here to proceed with the troubleshooting: <url> We'll assist you in resolving the issue with your Kindle Fire.",
+  "evidence_preview": [
+   {
+    "problem": "My kindle fire won’t turn on! It was working yesterday! Already plugged in for m",
+    "response": "Oh no! We'd like to troubleshoot with you. Please click here: <url> at a conveni"
+   },
+   {
+    "problem": "Pathetic service by Amazon and Tata Docomo. Amazon prime and amazon not working ",
+    "response": "Kindly elaborate your concern. We would like to help you get this sorted out. ^C"
+   },
+   {
+    "problem": "Amazon India. Very poor services. They have kept me wating for the pick of Dell ",
+    "response": "Kindly reach out to our support team here: <url> We'll look into this and assist"
+   }
+  ],
+  "pred_action": "escalate"
+ },
+ {
+  "example_id": "gold_062",
+  "customer_message": "<user> received this today but no earrings in the box? <url>",
+  "agent_reply": "I'm sorry to hear that you didn't receive the earrings as expected. Please share your feedback here so we can look into this further: <url>",
+  "evidence_preview": [
+   {
+    "problem": "Ordered myself a little treat from <user> only for it turn up with NO watch in b",
+    "response": "I'm so sorry about this. Please reach out to us by phone so we can explore our o"
+   },
+   {
+    "problem": "<user> <user> this is your packaging ? No outer box, nothing. See how you are de",
+    "response": "Sorry for that Rahul. Please share your feedback here: <url> ^HN"
+   },
+   {
+    "problem": "<user> I received a notification that my package was delivered today, but I don'",
+    "response": "I'm so sorry for the inconvenience! Have you tried contacting USPS for the most "
+   }
+  ],
+  "pred_action": "escalate"
+ }
+]

@@ -1,0 +1,1992 @@
+[
+ {
+  "example_id": "gold_001",
+  "text": "I’ve literally just watched this come through my door, why couldn’t your driver knock and deliver? <url>",
+  "ctx": "I’ve literally just watched this come through my door, why couldn’t your driver knock and deliver? <url> Sure! One thing, there’s three people living at this address - which one of us missed a delivery? <url> Surely if your driver had time to write up a sheet ",
+  "brand_first": "Oh no! That's not what we want to see. Reach out to us here: <url> so we can look into available options.^ZW",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_002",
+  "text": "I've ordered something from you 3 times. It hasn't arrived once. Why not? I have complained by email and phone but got nowhere.",
+  "ctx": "I've ordered something from you 3 times. It hasn't arrived once. Why not? I have complained by email and phone but got nowhere. What is a 'dispatch scan'? The order number was 204-2507619-5710711 'Undeliverable' but you have regularly delivered to that address",
+  "brand_first": "I'm so sorry for the frustrating experience! Can you tell us what the most recent dispatch scan from your order is showing? ^MJ",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_003",
+  "text": "how is it OK that I pay for next day delivery, now told it could be 5 days and have to wait up to 6 days to get 'more options'??",
+  "ctx": "how is it OK that I pay for next day delivery, now told it could be 5 days and have to wait up to 6 days to get 'more options'?? So u say yourselves it is late after saying all day it has been in transit And it doesn't say one day shipping when u buy it but 'g",
+  "brand_first": "One-day Shipping refers to transit time, in business days, once shipped. Has your confirmed delivery date changed? ^AM",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_004",
+  "text": "I need to talk to your customer care provide me the no asasp it's very urgent",
+  "ctx": "I need to talk to your customer care provide me the no asasp it's very urgent Order status is delivered but I did not received product I am still waiting for some positive response from u people.. Your site customer Care and service all r pathetic as shit... K",
+  "brand_first": "Please report this to our support team here: <url> and we'll look into your concern. ^HD",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_005",
+  "text": "hola. Encargué un producto y va con 4 días de retraso ¿que procede? el número de rastreo que me mandaron no existe.",
+  "ctx": "hola. Encargué un producto y va con 4 días de retraso ¿que procede? el número de rastreo que me mandaron no existe. Hola, muchas gracias por la atención. Si lo recibí, si gustas mandarme DM para adjuntarte una imagen. Ya que yo pague por un producto que no se ",
+  "brand_first": "Hola, lamento el inconveniente, ¿Recibiste un correo de confirmación al finalizar tu pedido? ^AZ",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_006",
+  "text": "I wish to exchange my working Dell laptop for new one.But one of the hinges of screen is broken. Is it eligible for exchange?",
+  "ctx": "I wish to exchange my working Dell laptop for new one.But one of the hinges of screen is broken. Is it eligible for exchange? Thx. The display is intact and product is working fine with Windows 10. The only thing is one hinge where is screen is attached is bro",
+  "brand_first": "intact and the product isn't damaged or broken. You may refer to the link here: <url> for more info.(2/2) ^GK",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_007",
+  "text": "FIFA 18. More than a game - jetzt im Handel! <url> #FIFA18 #ElTornado <url>",
+  "ctx": "FIFA 18. More than a game - jetzt im Handel! <url> #FIFA18 #ElTornado <url> Wenn ich es nur hätte... schade Marmelade leider kein Geld... <user> Hab im Juni bei <user> vorbestellt. Wird voraussichtlich Ende Oktober/Anfang November geliefert. Danke für nichts! ",
+  "brand_first": "Bitte spätestens Ende der Woche melden, wenn es nicht ankommt: <url> ^AV",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_008",
+  "text": "Your delivery times are now officially worse than the previously dreaded cable appointment windows. Already 1 day late and it’s 6pm.",
+  "ctx": "Your delivery times are now officially worse than the previously dreaded cable appointment windows. Already 1 day late and it’s 6pm. Hey <user> it’s that time of a day again when your drivers lie and said they “attempted delivery”. Sitting by my door for 3 hou",
+  "brand_first": "I'm sorry for the wait! Which carrier is delivering? You can check here: <url> ^BH",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_009",
+  "text": "why is it impossible to contact you via the web page. Item you sold not fit for purpose!",
+  "ctx": "why is it impossible to contact you via the web page. Item you sold not fit for purpose! yes. not able to communicate. item is not fit for purpose so under UK consumer law i am entitled to a refund IT WONT LET ME. I need an email address to contact you direct.",
+  "brand_first": "Hi Gareth, sorry to hear that. Have you checked the options available here: http:<url> ^JJ",
+  "intent": "product_issue",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_010",
+  "text": "After several chats,ur executive suggested Bluedart for <url> u'r r delaying courier charges refund! (1/2)",
+  "ctx": "After several chats,ur executive suggested Bluedart for <url> u'r r delaying courier charges refund! (1/2) Done. I have already provided you all the details. Still none contacted. Today, I called your customer executive (Himanshu). (1/2) (2/2) He denied to ref",
+  "brand_first": "your details here: <url> and I'll get back to you with an update soon. 2/2 ^EM",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_011",
+  "text": "05/ 10 Colis ouvert, articles déballés DVD dans la boîte aux lettres carton du coffret écrasé. VOUS VOUS FOUTEZ DU MONDE !!! <url>",
+  "ctx": "05/ 10 Colis ouvert, articles déballés DVD dans la boîte aux lettres carton du coffret écrasé. VOUS VOUS FOUTEZ DU MONDE !!! <url> Bonjour, désolée, pouvez-vous m'en dire plus svp ? Quels sont les numéros des colis et quelle est l'adresse de livraison ? 19/09 ",
+  "brand_first": "Désolée d'apprendre cela :/ en ce qui concerne Amazon logistics l'avez-vous signalé à notre SAV ? ^SN",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_012",
+  "text": "He comprado en <user> y <user> dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x reclamarles.",
+  "ctx": "He comprado en <user> y <user> dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x reclamarles. Ninguna. La única Constancia de q lo entregaron es un DNI q no corresponde a nadie conocido. Ni firma ni paquete. Solo gritos de la gerent",
+  "brand_first": "Lamento lo sucedido, Xiskya, ¿Que respuesta has recibido por parte del transportista? ^AZ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_013",
+  "text": "Para nuestro servicio de atención al cliente: <url> Y haced clic en \"Contacto\", a la derecha de la pantalla",
+  "ctx": "Para nuestro servicio de atención al cliente: <url> Y haced clic en \"Contacto\", a la derecha de la pantalla Si un pedido tiene entrega garantizada para una fecha y justo cuando llega el día te avisan de que se retrasa como se reclama Al final no te dan solució",
+  "brand_first": "Hola, lamentamos esto. Puedes contactar a nuestro SAC para que se verifique lo ocurrido: <url> ^AV",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_014",
+  "text": "Ogni volta che ordino qualcosa da amazon mi danno come corriere sempre sailpost aka quello più lento del mondo",
+  "ctx": "Ogni volta che ordino qualcosa da amazon mi danno come corriere sempre sailpost aka quello più lento del mondo Non ho ricevuto niente, doveva arrivarmi il cinque Ho controllato sul sito e dice che fino alle 18 consegnano, vediamo Gli articoli sono stati spedit",
+  "brand_first": "Ciao, possiamo aiutarti? Hai ricevuto degli articoli dopo la data di consegna prevista? ^GD",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_015",
+  "text": "Hey <user>, does prime benefit include delayed deliveries?",
+  "ctx": "Hey <user>, does prime benefit include delayed deliveries? <user> Yes, you missed to ask order details. Yes, delivering the order I placed 4th Oct. It was supposed to be delivered on 6th. But it's not delivered yet. It's the same story everyday <user> The orde",
+  "brand_first": "Sorry for the hassle. Did we miss anything? ^HN",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_016",
+  "text": "Amazon Echo with Alexa. It’s here. #AskAlexa <url>",
+  "ctx": "Amazon Echo with Alexa. It’s here. #AskAlexa <url> <user> <user> is this verified/genuine account? Hey when can I get the invite was wiating for this for long time I am hoping to get the invite I absolutely adore this gadget <url>",
+  "brand_first": "Could you please elaborate your query Gaurav? ^HN",
+  "intent": "general_info",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_017",
+  "text": "last year you people discontinued my seller account and it's peak time and there no hope of re instate my seller account from you",
+  "ctx": "last year you people discontinued my seller account and it's peak time and there no hope of re instate my seller account from you as you people barred my selling services there is no one to reply my mails as well as their is no contact support...whats wrong wi",
+  "brand_first": "I'm sorry to know about your account closure. Please connect with us here: <url> for assistance. ^NR",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_018",
+  "text": "Just got another email from <user> welcoming me to Prime, this time it seems I have no option to cancel now. What the fresh hell is this? <url>",
+  "ctx": "Just got another email from <user> welcoming me to Prime, this time it seems I have no option to cancel now. What the fresh hell is this? <url> but of course it might sign me up again whatever \"it\" is. I changed my password. I'm going to bed soon, I am too tir",
+  "brand_first": "Very odd! We'd like to review your account and assist you directly, please reach us here: <url> ^AC",
+  "intent": "cancellation",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_019",
+  "text": ".<user> how do you restore content/settings/photos from previous kindle (that died but was backed up to the cloud) to a replacement?",
+  "ctx": ".<user> how do you restore content/settings/photos from previous kindle (that died but was backed up to the cloud) to a replacement? .<user> i never saw that option. I was waiting for it. Where does it occur in the setting up process please, so i can reset &am",
+  "brand_first": "When you set up a new tablet you will have the option to set it up as a new device or restore your content from a backup.^TG",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_020",
+  "text": "Poor customer service by Amazon.in . #AmazonGreatIndianFestival #amazonprime #AmazonIndia #AmazonExclusive",
+  "ctx": "Poor customer service by Amazon.in . #AmazonGreatIndianFestival #amazonprime #AmazonIndia #AmazonExclusive Advisor had hung up the call on me on couple of occasions. Still issue not resolved... Wrong info... <url> I have placed an order for MotoG5s plus with e",
+  "brand_first": "Sorry for the bad experience. Please let us know what went wrong so that we can assist you accordingly. ^SH",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_021",
+  "text": "AMAZON IS THE COMPANY OF MOTHERFUCKERS, BUYERS NEED TO PAY FOR THE MISTAKES OF THE SELLERS, <user> <user> <user> #CustomerService <url>",
+  "ctx": "AMAZON IS THE COMPANY OF MOTHERFUCKERS, BUYERS NEED TO PAY FOR THE MISTAKES OF THE SELLERS, <user> <user> <user> #CustomerService <url> YOUR BUYER GUARANTEE TEAM REPLIED ME THAT THEY CAN BE MORE SUPPORTIVE TO FRAUD SELLERS THAN A VICTIM BUYER WHO IS HOSPITALIZ",
+  "brand_first": "Hey, we've sent you our correspondence on your registered e-mail with Amazon. Kindly check with same and revert back.(1/2) ^CB",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_022",
+  "text": "<user> where is my order. 6 tym calld custmr srvc no solution. Updated address 2 tym and everytime i am at home still this.... <url>",
+  "ctx": "<user> where is my order. 6 tym calld custmr srvc no solution. Updated address 2 tym and everytime i am at home still this.... <url> Still no solution ? Even I didnt receive any call I have shared my details with customer service on phn and it was told i'll ge",
+  "brand_first": "Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.(2/2) ^RD",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_023",
+  "text": "I just got an email that the email address of my account has been changed to another email without my permission, what can I do?",
+  "ctx": "I just got an email that the email address of my account has been changed to another email without my permission, what can I do? I mainly bought from .co.uk so I guess it should be under .co.uk After I sent an email to customer support, I received an email say",
+  "brand_first": "I'm sorry for the experience. What marketplace is your account under (.com, .co.uk, .ca) ? ^MH",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_024",
+  "text": "ontem entrei em contato com vocês sobre o meu problema do pagamento que não recebi do associados. Disse que ontem mesmo estaria",
+  "ctx": "ontem entrei em contato com vocês sobre o meu problema do pagamento que não recebi do associados. Disse que ontem mesmo estaria É ridículo. Tenho que esperar a boa vontade de vocês para resolver essa palhaçada. Eu quero uma solução pra isso pra ONTEM, NÃO PRO ",
+  "brand_first": "Boa noite DaYukie. Você não recebeu uma resposta do nosso SAC? ^JJ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_025",
+  "text": "舌ピ開けるためにアマゾンで注文したのに メールは届かないわ 注文履歴消えるはでもうネット通販向いてないと思った",
+  "ctx": "舌ピ開けるためにアマゾンで注文したのに メールは届かないわ 注文履歴消えるはでもうネット通販向いてないと思った 注文した後全くアプリを触ってなかったので取り消した可能性は低いと思うんですよね メール等は一切届いてないのでどうしたらいいですかね りょーかいです",
+  "brand_first": "リプライ失礼いたします。注文履歴に表示されない場合には、キャンセルされている可能性がございます。その場合は、Eメールにてご連絡をさせていただいておりますので受信メールをご確認ください。また、アカウントサービス内のメッセージセンターからもご確認いただけます。HM",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_026",
+  "text": "<user> Worst service, 45 days no solutions to complaint, do not trust them #WorldSmileDay #ZefoWaliDiwaliSale #sasikala",
+  "ctx": "<user> Worst service, 45 days no solutions to complaint, do not trust them #WorldSmileDay #ZefoWaliDiwaliSale #sasikala I see no solution to it, already received 2 dozens of mail that we are still working. Not always you can divert consumer. (1) You're promisi",
+  "brand_first": "Apologies for the trouble, certainly not intended. Kindly revert to the email correspondence that you've received from us. ^KN",
+  "intent": "service_complaint",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_027",
+  "text": "I have not yet received my product but <user> <user> <user> updated it as delivered #poorservice #Irresponsible <url>",
+  "ctx": "I have not yet received my product but <user> <user> <user> updated it as delivered #poorservice #Irresponsible <url>",
+  "brand_first": "Also, please don't provide the order details, as we consider it personal information. ^HT (2/2)",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_028",
+  "text": "awful service, bluff,fraud, shows price of item as Rs11700 whose actual MRP is RS3995. Totally unbelievable and discussing.",
+  "ctx": "awful service, bluff,fraud, shows price of item as Rs11700 whose actual MRP is RS3995. Totally unbelievable and discussing. you change deal price but actual MRP is mentioned by the manufacturer company",
+  "brand_first": "We’re continuously working to provide the best possible prices and prices do change from time to time. (2/2)^RS",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_029",
+  "text": "one of the worst customer service experience with Amazon India. Ordered an item on 5th and today is 8th no update?",
+  "ctx": "one of the worst customer service experience with Amazon India. Ordered an item on 5th and today is 8th no update? Placed the order on 5th and delivery was on 6th but today is 8th and no delivery yet. Done",
+  "brand_first": "Sorry about that. Could you tell us the delivery date that was promised while placing the order? ^SK",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_030",
+  "text": "Terrible experience with amazon customer service and delivery service !! Tracking #183163878447. #<user> #<user> #<user>",
+  "ctx": "Terrible experience with amazon customer service and delivery service !! Tracking #183163878447. #<user> #<user> #<user>",
+  "brand_first": "Please don't provide your details, we consider it personal information. Our Twitter page is visible to public. 2/2 ^HD",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_031",
+  "text": "order id-402-4902132-3775509 how this paymnt can be done when no delivery boy came to my add. Allahabad delvry system is poor. <url>",
+  "ctx": "order id-402-4902132-3775509 how this paymnt can be done when no delivery boy came to my add. Allahabad delvry system is poor. <url> Can u please send your product today so that i can pay ....p.s. yesterday was the promise day and u people have taken Rs 80 ext",
+  "brand_first": "Please don’t provide your order details as it is personal information. Our page is visible to the public.2/2^HN",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_032",
+  "text": "unable to place order; getting error many times. product shows available, when I book, in the next page it shows unavailable. <url>",
+  "ctx": "unable to place order; getting error many times. product shows available, when I book, in the next page it shows unavailable. <url> Please take quick action.. offer is running out.. do not ask the users to raise another ticket. Raise a ticket please on my beha",
+  "brand_first": "Allow our support team to investigate this. You can report this here: <url> ^CB.",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_033",
+  "text": "#Amazon #AmazonIndia my order 171-0360384-4991563 updated as delivered when actually not and cust serv not solvg the issue. #bewarecustomer",
+  "ctx": "#Amazon #AmazonIndia my order 171-0360384-4991563 updated as delivered when actually not and cust serv not solvg the issue. #bewarecustomer",
+  "brand_first": "Please don't provide your order details, as we consider them to be personal info. Our page is visible to the public. 2/2 ^GK",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_034",
+  "text": "I have an email saying my parcel was put through my letterbox but I've been in all day and it's definitely not come to me.",
+  "ctx": "I have an email saying my parcel was put through my letterbox but I've been in all day and it's definitely not come to me. I've checked and the carrier is Amazon shipping but there's no contact. Can't you help?",
+  "brand_first": "I'm sorry to hear you don't have your parcel! Here's a link to our Help page for this situation: <url> ^BV",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_035",
+  "text": "hello, Battlefront 2 pre ordre and any bêta code in my mailbox. Help ? Thx",
+  "ctx": "hello, Battlefront 2 pre ordre and any bêta code in my mailbox. Help ? Thx 03/10 Amazon.fr October 3rd I canceled the standard version for the deluxe version. Never mind.. —\"",
+  "brand_first": "When did you place the order and on which Amazon website? ^KM",
+  "intent": "availability_question",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_036",
+  "text": "What a discount, <user>. <url>",
+  "ctx": "What a discount, <user>. <url>",
+  "brand_first": "price they feel is fair. The prices may between sellers. More details on pricing here: <url> 2/2 ^KS",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_037",
+  "text": "Mit #Hermes zurück in die Zukunft, oder wie soll das funktionieren? Wann verzichtet <user> endlich auf den Laden? <url>",
+  "ctx": "Mit #Hermes zurück in die Zukunft, oder wie soll das funktionieren? Wann verzichtet <user> endlich auf den Laden? <url> Done!",
+  "brand_first": "Melde dich bitte im Kundenservice, damit wir der Sache nachgehen können: <url> ^UK",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_038",
+  "text": "Un nouveau bébé arrive bientôt et on peut dire merci à <user> pour la rapidité de livraison !",
+  "ctx": "Un nouveau bébé arrive bientôt et on peut dire merci à <user> pour la rapidité de livraison ! Merci bien !",
+  "brand_first": "On vous souhaite une très bonne réception ! ^KE",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_039",
+  "text": "Ay <user> I got free two day shipping, yet my package won't arrive for 6 days...",
+  "ctx": "Ay <user> I got free two day shipping, yet my package won't arrive for 6 days... That makes sense then. I thought the 2 days included the time it took to ship",
+  "brand_first": "The two days begins when an item is shipped and is counted in business days. The most accurate date is shown at checkout. ^LB",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_040",
+  "text": "Okay <user> , where did you hide tracking numbers? Why do they show up on the app but not the web page? Is this an \"improvement?\" #ItsNot",
+  "ctx": "Okay <user> , where did you hide tracking numbers? Why do they show up on the app but not the web page? Is this an \"improvement?\" #ItsNot Doesn’t answer my question. Where are the tracking numbers? Interesting bug. Six packages (over 2 orders) and only the mos",
+  "brand_first": "On the Amazon site, sign in to Your Account&gt;Your Orders and the track package button should be on the right of the item.^EM",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_041",
+  "text": "why I order with 2 day shipping on Saturday and my order just now ship?????????? Y??????",
+  "ctx": "why I order with 2 day shipping on Saturday and my order just now ship?????????? Y?????? Amazon u know damn well that shit shoulda shipped before today I don’t wanna hear it",
+  "brand_first": "Two-Day refers to the time once it ships. Some items have additional processing, we include that into the date given. ^LI",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_042",
+  "text": "cancel Eureka Forbes Euroclean WD X2 Vacuum Cleaner but refund not proceed why?",
+  "ctx": "cancel Eureka Forbes Euroclean WD X2 Vacuum Cleaner but refund not proceed why? <user> <user> what is the status? <user> <user> I have already report in your help center they guys say within 24-48 hrs its resolve but still wating",
+  "brand_first": "I'm sorry for that. Please contact us here: <url> and we'll be glad to help you. ^SI",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_043",
+  "text": "Recién llegaron / Just arrived; <user> <user> <url>",
+  "ctx": "Recién llegaron / Just arrived; <user> <user> <url> Aun no, pero lo haré en mi próxima salida a correr.",
+  "brand_first": "¿Ya los estrenaste? ¿Qué te han parecido? ^JQ",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_044",
+  "text": "tengo una gift card de Estados Unidos, ¿cómo hago para aplicarla en mi cuenta Amazon MX?",
+  "ctx": "tengo una gift card de Estados Unidos, ¿cómo hago para aplicarla en mi cuenta Amazon MX? Muchas gracias.",
+  "brand_first": "Hola Carlos, por favor contacta a nuestro Servicio al Cliente por medio de este enlace: <url> . ^MB",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_045",
+  "text": "what does it take for you to actually deliver when you say you will?",
+  "ctx": "what does it take for you to actually deliver when you say you will? <url>",
+  "brand_first": "I'm sorry for the wait! Was the order placed on <url> or one of our international websites? ^EP",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_046",
+  "text": "Didn't even get a call from courier guy, and all of a sudden it shows item was delivered. WTH!! <url>",
+  "ctx": "Didn't even get a call from courier guy, and all of a sudden it shows item was delivered. WTH!! <url> Did multiple times and all the executives same old story wait for another day then will initiate refund.Why u hv 1 day delivery at all?",
+  "brand_first": "Have you reported this to our support team here: <url> ? (2/2)^HR",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_047",
+  "text": "またAmazonに騙された(´•ω•｀)お金返ってくればいいな",
+  "ctx": "またAmazonに騙された(´•ω•｀)お金返ってくればいいな 注文した物が発送されたと注文先(not Amazon)から連絡がありましたが、4日たってもまだ届きません。メールに運送会社が書いてないので追跡もできず、以前も似たような事があり、確証ではありませんが、また詐欺に引っ掛かったのかと。最終日7日まで待ちます。 こちらで対処させていただきます。わざわざご連絡ありがとうございました。",
+  "brand_first": "こんにちは、Amazonです。ご注文商品に何か問題がございましたでしょうか？SK",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_048",
+  "text": ".<user> i’ve been hacked. these mugs are ugly and i don’t leave reviews <url>",
+  "ctx": ".<user> i’ve been hacked. these mugs are ugly and i don’t leave reviews <url> make this shit stop!!!!!! <url>",
+  "brand_first": "Oh no! I'm sorry for the trouble, Keisha! We're happy to get things sorted for you via phone/chat here: <url> ^CS",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_049",
+  "text": "hey when are you releasing arjunreddy telugu movie",
+  "ctx": "hey when are you releasing arjunreddy telugu movie",
+  "brand_first": "<url> where we highlight the latest movies and TV shows we have available. 2/2 ^HD",
+  "intent": "availability_question",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_050",
+  "text": "Late deliveries are a normal occurrence, why are we wasting money paying for Prime? <url>",
+  "ctx": "Late deliveries are a normal occurrence, why are we wasting money paying for Prime? <url> Generally UPS is the one we're most aware of, they either deliver after the 8PM delivery time stated on our orders or deliver the next day.",
+  "brand_first": "I'm sorry for re reoccurring delivery issues. Are you noticing this trend with a certain carrier: <url> ^GG",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_051",
+  "text": "it's been at the same facility since yesterday morning. just give it to me na. i'm a prime customer and all. pls na. <url>",
+  "ctx": "it's been at the same facility since yesterday morning. just give it to me na. i'm a prime customer and all. pls na. <url> tomorrow. but i want to play today. T-T thx os",
+  "brand_first": "Shiesh, items are shipped as per the estimates provided. Could you confirm the estimated date of delivery? ^MS",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_052",
+  "text": "Amazonかと思いきや、Amαzonだったww考えるね(´^ω^｀) スマホのメアド登録してないから騙されないぜ",
+  "ctx": "Amazonかと思いきや、Amαzonだったww考えるね(´^ω^｀) スマホのメアド登録してないから騙されないぜ わざわざありがとうございます！ 気をつけます！",
+  "brand_first": "アマゾンです。こちらは当サイトからお送りしたものではありません。当サイトや実在の企業を装い個人情報を取得しようとする詐欺が発生しておりますので、ご注意くださいませ。記載のリンクにアクセスしたり電話番号にはご連絡なさいませんようお願いいたします。ET",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_053",
+  "text": "When my product Return and Refund me. Last 10 day I'm waiting ur person come to defect product collect. Why delay this ?Shameless",
+  "ctx": "When my product Return and Refund me. Last 10 day I'm waiting ur person come to defect product collect. Why delay this ?Shameless Im updated all detils",
+  "brand_first": "Apologize for the delay in pick up. Please share your details here: <url> We'll get this fixed. ^BS",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_054",
+  "text": "<user> what did you do? <url>",
+  "ctx": "<user> what did you do? <url> I thought you did read the message and was looking for some witty reply with the parcel. But you disappoint me.",
+  "brand_first": "Sorry, I was unable to comprehend your concern. Could you elaborate on it? ^MA",
+  "intent": "other",
+  "action": "escalate",
+  "reason": "unsupported_or_ambiguous_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_055",
+  "text": "I have a parcel that's not for us. The address on the label is correct but the name isn't and I have no orders that'd match it.",
+  "ctx": "I have a parcel that's not for us. The address on the label is correct but the name isn't and I have no orders that'd match it. That only seems to offer the option to return things I've ordered. This is an unknown person's order who has used my address.",
+  "brand_first": "No worries! You can get that back to us by checking here: <url> ^JZ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_056",
+  "text": "<user> ur claim for order is granted...what does this statement means and also when will i get my product return..",
+  "ctx": "<user> ur claim for order is granted...what does this statement means and also when will i get my product return..",
+  "brand_first": "we'll help you with the required information. 2/2^AP",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_057",
+  "text": "U R updating false things on tracking sys. I haven't received prdt bt sys says delivered &amp; signed by me. <user> <user>",
+  "ctx": "U R updating false things on tracking sys. I haven't received prdt bt sys says delivered &amp; signed by me. <user> <user> I have reported this problem but doing false update is wrong.",
+  "brand_first": "Sorry about that. We'd like to help. Kindly report this to our support team here: <url> ^AK",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_058",
+  "text": "Some people are doing black marketing by selling Amazon products in market. Please check order 405-6452704-9792315 <user> <user>",
+  "ctx": "Some people are doing black marketing by selling Amazon products in market. Please check order 405-6452704-9792315 <user> <user>",
+  "brand_first": "Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public. (2/2) ^AU",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_059",
+  "text": "Geht eigentlich bei irgendwem noch <user> über Vodafone/Kabelfeutschland auf SmartTV? #Followerpower",
+  "ctx": "Geht eigentlich bei irgendwem noch <user> über Vodafone/Kabelfeutschland auf SmartTV? #Followerpower <user> Amazon Prime hakt grade ganz schön Es ist ja nicht wegen mir, aber das Kind möchte.",
+  "brand_first": "Wir arbeiten bereits mit Hochdruck daran. Versuch es gerne nachher nochmal. Liebe Grüße ^MF",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_060",
+  "text": "Well done <user> <user> for delivering Xmas presents inc kindle fire 8 and leaving them in our food waste bin on the drive",
+  "ctx": "Well done <user> <user> for delivering Xmas presents inc kindle fire 8 and leaving them in our food waste bin on the drive Yes luckily but it’s a bit disgusting to fish parcels out of a bin",
+  "brand_first": "Oh no! I'm sorry we left your packages in your bin, Kelvin! Were you able to retrieve them? Were they damaged? ^LB",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_061",
+  "text": "今話題のAmazon文字化け問題。うちのミニスーファミも該当してました。 必死に予約して楽しみにしてたのに、当日に届かない所か返送・返金ですって。 あえて言わせて貰うわクソAmazon。2度とAmazonで買わんわボケェ。",
+  "ctx": "今話題のAmazon文字化け問題。うちのミニスーファミも該当してました。 必死に予約して楽しみにしてたのに、当日に届かない所か返送・返金ですって。 あえて言わせて貰うわクソAmazon。2度とAmazonで買わんわボケェ。 返信ありがとうございます。 ですが後日とは？ 販売日当日に別件で家電量販店に行きましたが、普通に入荷してました。 うちはAmazonさんで予約してるからと安心してましたが、こんな事になるなら店舗で購入してキャンセルすればよかったです。 うちの子供たちは昨日楽しみに到着するのを待ってました。しかし",
+  "brand_first": "このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日<url>",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_062",
+  "text": "<user> received this today but no earrings in the box? <url>",
+  "ctx": "<user> received this today but no earrings in the box? <url> It says sold by Amazon EU",
+  "brand_first": "Oh no! Was the parcel dispatched from Amazon or third-party seller? If unsure, please see: <url> ^CS",
+  "intent": "feedback",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_063",
+  "text": "Divinas!⭐ Gracias <user> #AmazonPrime <url>",
+  "ctx": "Divinas!⭐ Gracias <user> #AmazonPrime <url> Deseando de hacerlo! El servicio Prime es una pasada!",
+  "brand_first": "Adoramos tus nuevas brochas , ¿ya las estrenaste? ^MB",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_064",
+  "text": "Over a month for an item. Now I can't cancel it because it contributed to free postage on other items. That's not my fault!",
+  "ctx": "Over a month for an item. Now I can't cancel it because it contributed to free postage on other items. That's not my fault! Just gone to link. My account is wiped! No history of 9 years of shopping wtf??",
+  "brand_first": "Terribly sorry for the inconvenience! Let's see if we have additional options for you: <url> ^JZ",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_065",
+  "text": "Oi <user> where mi <user> book. I’ve been waiting all day",
+  "ctx": "Oi <user> where mi <user> book. I’ve been waiting all day It’s here worry over ^TR Will do",
+  "brand_first": "Deliveries can be made up until 21:00. Please keep us posted! ^TR",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_066",
+  "text": "Les délais trop souvent dépassés de <user> pour leurs livraisons <user> Locker, -&gt;frais de port remboursables. Ecrivez à Amazon.",
+  "ctx": "Les délais trop souvent dépassés de <user> pour leurs livraisons <user> Locker, -&gt;frais de port remboursables. Ecrivez à Amazon. J'ai répondu au précédent Tweet :) Comme je disais, c'est \"réglé\", mais mes colis envoyés en locker sur Perpignan sont en perman",
+  "brand_first": "Have you contacted our customer service about this issue ? ^ME",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_067",
+  "text": "Un grand merci au livreur d'Amazon qui m'a ramené chez moi alors que j'avais crevé en pleine campagne",
+  "ctx": "Un grand merci au livreur d'Amazon qui m'a ramené chez moi alors que j'avais crevé en pleine campagne Il m'a sauvé mon après midi",
+  "brand_first": "Oh que c'est gentil ^SM",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_068",
+  "text": "order#405-7050434-0533931 it was supposed to deliver today now it's showing it will be delivered by tomorrow?wt is use of prime",
+  "ctx": "order#405-7050434-0533931 it was supposed to deliver today now it's showing it will be delivered by tomorrow?wt is use of prime",
+  "brand_first": "Please don’t provide your details as we consider them to be personal information. Our Twitter page is public. 2/2 ^SH",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_069",
+  "text": "warum laufen eure Filme bei mir nur in VideoCD-Qualität während die Werbung im Vorspann mit HD übertragen wurde? Settings ? <url>",
+  "ctx": "warum laufen eure Filme bei mir nur in VideoCD-Qualität während die Werbung im Vorspann mit HD übertragen wurde? Settings ? <url> In diesem Fall “Constantine”. Ab Minute 7 nur noch Pixelbrei. Doch alle 5 Minuten geht die Qualität wieder den Bach runter. Bis ic",
+  "brand_first": "Hi, auf welchem Gerät streamst du denn? Gibt es aktuell Schwankungen bei deiner Bandbreite? Hilft kurzes Pausieren? ^MI",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_070",
+  "text": "another delivery mess up by your contractor. No attempt was made to deliver. Your guaranteed commitment is a joke.",
+  "ctx": "another delivery mess up by your contractor. No attempt was made to deliver. Your guaranteed commitment is a joke. Already left details via chat - also another order to same address affected It’s a shambles Monday not acceptable needs to be tomorrow",
+  "brand_first": "I'm sorry you haven't received your order! We'd like to assist you directly via phone or chat here: <url> ^MB",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_071",
+  "text": "Assinei o teste grátis da Kindle unlimited e a Amazon me cobrou 3 dólares? Como assim <user>?",
+  "ctx": "Assinei o teste grátis da Kindle unlimited e a Amazon me cobrou 3 dólares? Como assim <user>? Avaliação gratuita mas nem tanto Já pensou se eu tivesse que pagar pra provar uma roupa na loja?",
+  "brand_first": "Oi Cao, algumas vezes, quando você faz um pedido ou começa o teste duma assinatura, verificamos a forma de pagamento (1/2)",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_072",
+  "text": "There cannot be anything bad than your irresponsiveness to customers concerns in India",
+  "ctx": "There cannot be anything bad than your irresponsiveness to customers concerns in India I raised a concern about refusal of delivery by Aramex courier at door steps your executives kept on dilling dolling for finding no solution yes very much",
+  "brand_first": "That's quite a remark. I would like to help! May I know what went wrong? ^HR",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_073",
+  "text": "No refund of my money since one month, name mismatch in cheque and bank a/c <user> order no #403-8295304-4660353",
+  "ctx": "No refund of my money since one month, name mismatch in cheque and bank a/c <user> order no #403-8295304-4660353",
+  "brand_first": "personal information. Our Twitter page is public. 3/3 ^SH",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_074",
+  "text": "Hi NUS,you’ve sent me this voucher but it doesn’t work. Any ideas?? <url>",
+  "ctx": "Hi NUS,you’ve sent me this voucher but it doesn’t work. Any ideas?? <url> Or <user> can you help? Hi JJ, I get this. I’ve checked and have selected the right item. <url>",
+  "brand_first": "Hi Adam, sorry to hear that. What error message do you get? ^JJ",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_075",
+  "text": "AEEEEE PARABENS PELO MÊSVERSARIO DE ATRASO <user> *---* HÁ UM MES Meu pedido era para ter sido entregue e até Hoje nada !!!!",
+  "ctx": "AEEEEE PARABENS PELO MÊSVERSARIO DE ATRASO <user> *---* HÁ UM MES Meu pedido era para ter sido entregue e até Hoje nada !!!! Estou aguardando novamente um retorno de 72h É vendido pela Amazon, já foi enviado um produto substituto que também já está atrasado.",
+  "brand_first": "Sinto muito o inconveniente,Jaisson, você conseguiu entrar em contato com nosso SAC para ter mas informações? ^AZ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_076",
+  "text": "os itens que tem \"Elegível Frete Grátis\" significa que o item tem frete grátis certo? Ao finalizar sempre vem cobrando frete.",
+  "ctx": "os itens que tem \"Elegível Frete Grátis\" significa que o item tem frete grátis certo? Ao finalizar sempre vem cobrando frete.",
+  "brand_first": "Oi Jonathan, atualmente, o frete é grátis para livros em pedidos a partir de R$ 99,00 para as regiões (1/2)",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_077",
+  "text": "新しいイヤホンAmazonで頼んじゃおっかな〜",
+  "ctx": "新しいイヤホンAmazonで頼んじゃおっかな〜 公式からリプライ貰えるなんて笑笑 いつもお世話になってます！！",
+  "brand_first": "|ω・).｡oO( いつでもご利用おまちしております！） SK",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_078",
+  "text": "<user> <user> Amazon. If you care a fig about customers u will not use aramex. 100% lost/delayes with NO feedback whatsoever",
+  "ctx": "<user> <user> Amazon. If you care a fig about customers u will not use aramex. 100% lost/delayes with NO feedback whatsoever <user> <user> I am sorry but a week later the status on Aramex site is misleading and false. Can someone help please? Will get refund f",
+  "brand_first": "I'm sorry for the unpleasant experience. You may use the link <url> for returning the product. ^SB",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_079",
+  "text": "Prime shipping is so bad. It's never on time.",
+  "ctx": "Prime shipping is so bad. It's never on time. It's Amazon Logistics that is the issue. I'm a prime member for 2-day shipping, not 3-6 days.",
+  "brand_first": "This definitely isn't what we like to hear! Have you noticed this happening more with a specific carrier: <url> ^ML",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_080",
+  "text": "Amazonプライムの無料リーディングが始まって、鼻息あらくダウンロードしてる...、",
+  "ctx": "Amazonプライムの無料リーディングが始まって、鼻息あらくダウンロードしてる...、 中の人だっ! わいのわいの ワーーーイ SH",
+  "brand_first": "沢山ご利用くださいませ。( ´艸｀) ｳﾌﾌ ET",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_081",
+  "text": "why your investigation team is slow?. Your CAP team doesn't provide the solution. totally waste of time.",
+  "ctx": "why your investigation team is slow?. Your CAP team doesn't provide the solution. totally waste of time. Order id-404-0653061-4574763.i got wrong product instead of NOKIA 6 after multiple days nobody know the progress on it.FIR copy already sent All supporting",
+  "brand_first": "That's quite a remark. Could you let us know what went wrong? We'll look into it. ^HD",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_082",
+  "text": "hello amazon my two order is pending and i don't have a received 7042175633 ORDER # 407-9994561-9368336 ORDER # 407-8719367-4043545 <url>",
+  "ctx": "hello amazon my two order is pending and i don't have a received 7042175633 ORDER # 407-9994561-9368336 ORDER # 407-8719367-4043545 <url>",
+  "brand_first": "Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.​ 2/2^EM",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_083",
+  "text": "Why is it that despite having Prime, <user> insists on displaying these ads for itself on every single page I go to? <user> <url>",
+  "ctx": "Why is it that despite having Prime, <user> insists on displaying these ads for itself on every single page I go to? <user> <url> <user> <user> <user> <user> <user> <user> <user> <user> can someone please explain Hi there! You send me emails advertising produc",
+  "brand_first": "How may we assist you? ^HN",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_084",
+  "text": "If this kind of fraud Amazon done in USA, Gov block the company <user> <user> <user> <user>",
+  "ctx": "If this kind of fraud Amazon done in USA, Gov block the company <user> <user> <user> <user> Check the history of Order ID: 406-0347081-3617918. Number of times I have calls to customer care, tired now with Amazon service",
+  "brand_first": "We apologize for the inconvenience. Please contact us here: <url> and we'll investigate this issue further. ^ZH",
+  "intent": "other",
+  "action": "escalate",
+  "reason": "unsupported_or_ambiguous_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_085",
+  "text": "are you kidding me? Twice now I've ordered a book and both times have had major issues with my order. Unreal. Give me a refund.",
+  "ctx": "are you kidding me? Twice now I've ordered a book and both times have had major issues with my order. Unreal. Give me a refund. I just DM'd you guys about the issue.",
+  "brand_first": "Apologies. Can you tell us a bit more about the issues, were the books fulfilled by Amazon or a 3rd Party Seller? ^JJ",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_086",
+  "text": "hi there I pre ordered the wwe 2k18 cena nuff edition for PS4, it comes out on the 13th, is that when you take the money for it ?",
+  "ctx": "hi there I pre ordered the wwe 2k18 cena nuff edition for PS4, it comes out on the 13th, is that when you take the money for it ? so if it says dispatched on the 13th, which is my birthday by the way, will i be charged on my birthday ?",
+  "brand_first": "Thanks for reaching out! We process the charge for items once they're being packed and prepared for shipment. ^GR",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_087",
+  "text": "I can't email via the app anymore why is that? <user>",
+  "ctx": "I can't email via the app anymore why is that? <user> it brings me to chat option and then it wants me to call Amazon to get it resolved can you please give me amazon direct email address? So I don't have to call each time I have a issue with a product",
+  "brand_first": "Are you getting any error messages? Have you tried deleting the app and redownloading it? ^EP",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_088",
+  "text": "Waited all day for my delivery &amp; nothing yet. What’s the point in paying for next day if it doesn’t come!? Tracking - Q60926380104",
+  "ctx": "Waited all day for my delivery &amp; nothing yet. What’s the point in paying for next day if it doesn’t come!? Tracking - Q60926380104 Yes. One Day delivery Order Ref: 205-5308050-0975508 <url> Can’t you call the courier to ensure it is delivered!? It’s been o",
+  "brand_first": "We're not able to access order details via Twitter. Have we missed our expected delivery date? <url> ^JE",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_089",
+  "text": "Hoy me ha llegado esta maravilla de parte de <user> Gracias por vuestro servicio, tan bueno como siempre. <url>",
+  "ctx": "Hoy me ha llegado esta maravilla de parte de <user> Gracias por vuestro servicio, tan bueno como siempre. <url> Aun no, pero esta noche lo pruebo seguro :3",
+  "brand_first": "Hola Carmelox. Estamos muy felices de saber que ya has recibido tu pedido. ¿Ya lo estrenaste? ^HC <url>",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_090",
+  "text": "Biggest discount lightning deal on <user> save you Rs.1 Lightning deals are becoming jokes <url> <url>",
+  "ctx": "Biggest discount lightning deal on <user> save you Rs.1 Lightning deals are becoming jokes <url> <url>",
+  "brand_first": "you the lowest price, may result in fluctuations in our prices over time. (2/2) ^KA",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_091",
+  "text": "first time using Amazon, but i ordered something and it was supposed to arrive today but it still not here??",
+  "ctx": "first time using Amazon, but i ordered something and it was supposed to arrive today but it still not here?? Intelcom courrier canada inc",
+  "brand_first": "I'm sorry you haven't received your package! Who was the carrier for the order: <url> Let us know, Kevin! ^KJ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_092",
+  "text": "I’m sick of your lies and today two items that were promised in prime I’m now told won’t be delivered",
+  "ctx": "I’m sick of your lies and today two items that were promised in prime I’m now told won’t be delivered Clearly couldn’t be bothered to send them so are now lying to me I’m not stupid - you will pay But both items are mysteriously not available Today obviously .",
+  "brand_first": "I'm sorry to hear! What is the delivery date in the order confirmation email? ^AT",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_093",
+  "text": "<user> Please contact me; It's urgent!",
+  "ctx": "<user> Please contact me; It's urgent! Do y'all understand the meaning of 'Urgent'? <user> Your on call executives have no idea about what they are talking about. I need some better assistance urgently.",
+  "brand_first": "Kindly get in touch with us here: <url> and we’ll be glad to help you. ^NS",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_094",
+  "text": "Please can you tell me why you put this tiny product in a package the size of a wardrobe. #pointlesspackaging #excessivepackaging <url>",
+  "ctx": "Please can you tell me why you put this tiny product in a package the size of a wardrobe. #pointlesspackaging #excessivepackaging <url> I have left the feedback already.",
+  "brand_first": "Sorry about this. Please leave feedback here: <url> to avoid this happening again ^KM",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_095",
+  "text": "Why do none of <user> deliveries arrive any more. #deliveredNOT",
+  "ctx": "Why do none of <user> deliveries arrive any more. #deliveredNOT Yes. So frustrating Said it was delivered. IT WAS NOT",
+  "brand_first": "We'd like to help! Are you experiencing this issue with a recent order? ^GG",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_096",
+  "text": "アマゾンって支払いの期限あるっけ？",
+  "ctx": "アマゾンって支払いの期限あるっけ？ ありがとうございます すぐ払いにいきます！",
+  "brand_first": "「コンビニ・ATM・ネットバンキング・電子マネー払い」でしょうか。その場合はお支払期限がございます。期限はお支払い番号の発行日を含めて6日です。<url> SK",
+  "intent": "payment_issue",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_097",
+  "text": "Hey <user> I can't log in on my phone because your captchas are completely indecipherable. I've failed 4 in a row now. <url>",
+  "ctx": "Hey <user> I can't log in on my phone because your captchas are completely indecipherable. I've failed 4 in a row now. <url> This link isn't really helpful. I have zero interest in resetting my account information - I just want to be able to use the l/p I have",
+  "brand_first": "I'm sorry for the trouble while signing in to your account. We'd like to help here: <url> ^RA",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_098",
+  "text": "i have not received my past 3 orders on time even though you guaranteed next day delivery...pls refund my prime membership",
+  "ctx": "i have not received my past 3 orders on time even though you guaranteed next day delivery...pls refund my prime membership",
+  "brand_first": "<url> We'll look into and see what best can be done to make things right for you. 2/2^EM",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_099",
+  "text": "I pre ordered a book that was supposed to arrive Tuesday but was delayed until yesterday and I still haven’t recieved it.",
+  "ctx": "I pre ordered a book that was supposed to arrive Tuesday but was delayed until yesterday and I still haven’t recieved it. All it says is that it was expected by October 5th to be delivered by USPS. The last update was Tuesday",
+  "brand_first": "I'm sorry to hear this! We'd like to help. What's the most recent tracking and carrier information listed for your order? ^HC",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_100",
+  "text": "If I buy an Amazon gift card in the US and send to someone in Europe will they be able to use it over there?",
+  "ctx": "If I buy an Amazon gift card in the US and send to someone in Europe will they be able to use it over there? So how can o get a gift card for someone in Europe? They will be using it from France. Great! Thanks! Is it possible to purchase an actual card from th",
+  "brand_first": "Hey there! Our gift cards based on the website/locations they are purchased from. US Amazon gift cards only work in the US. ^JE",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_101",
+  "text": "Man... my <user> package has been \"preparing\" for almost two days straight now... getting really #worried it won't \"arrive tomorrow\"",
+  "ctx": "Man... my <user> package has been \"preparing\" for almost two days straight now... getting really #worried it won't \"arrive tomorrow\" My packages arrived safely, thank you for your time :) Hey, yes I can see the order, it's just without confirmation of it being",
+  "brand_first": "Hi, it's not unusual for items to be dispatched close to del date. Can you see a dispatch date here: <url> ^JJ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_102",
+  "text": "#Amazon Amazon India Thanks to start selling such type of useful gadgets. Thanks... <url>",
+  "ctx": "#Amazon Amazon India Thanks to start selling such type of useful gadgets. Thanks... <url> I bought it Pandit Kumar gandharv and some folk songs of our local singers.",
+  "brand_first": "we have. Have you planned to buy this or have you already bought one? (2/2)^SQ",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_103",
+  "text": "good morning. For 10 months+ I have been having unresolved issues of a deduction of $119.97 wrongly deducted from my bank account.",
+  "ctx": "good morning. For 10 months+ I have been having unresolved issues of a deduction of $119.97 wrongly deducted from my bank account. I received that last email 4days ago - September 7th 2017. The email is a non-replyable one. However I have chatted with your cus",
+  "brand_first": "Sorry to hear this - what was latest information provided to you ? ^TD",
+  "intent": "payment_issue",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_104",
+  "text": "when you order one day shipping on Wednesday and the package won't be here till Monday thanks",
+  "ctx": "when you order one day shipping on Wednesday and the package won't be here till Monday thanks ALSO what does \"GG\" mean?! Thinkin we playin <user> out here I'll 1v1 you <user> I ordered a lightbulb to light my house, why is it your agenda to ruin my life and ke",
+  "brand_first": "To clarify, the shipping speed refers to the time in transit after the order ships. Feel free to keep us posted. ^GG",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_105",
+  "text": "Hello, I've been trying to return something for over a month. Contacted 3x, informed each time return is approved. Next step?",
+  "ctx": "Hello, I've been trying to return something for over a month. Contacted 3x, informed each time return is approved. Next step? 3rd party. Says it will be picked up on Sept 23rd. No Thank you!",
+  "brand_first": "Was the item fulfilled by Amazon, or a Third-Party seller? If you're unsure, you can check here: <url> ^NM",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_106",
+  "text": "bought this product, page said its returnable.nw when I login to return, it says product cant returned. #customer #grievance #amazonindia <url>",
+  "ctx": "bought this product, page said its returnable.nw when I login to return, it says product cant returned. #customer #grievance #amazonindia <url> Issue solved. Thanks <user> <user> That's why I prefer Amazon instead of flipkart, <user> hope your issue resolved? ",
+  "brand_first": "Sorry to know you're having trouble with returns. Kindly connect with us here: <url> We'll help. ^PS",
+  "intent": "product_issue",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_107",
+  "text": "Want to know where your order has reached? Here's how you can track it: <url> #AmazonGreatIndianFestival <url>",
+  "ctx": "Want to know where your order has reached? Here's how you can track it: <url> #AmazonGreatIndianFestival <url> Somebody be responsible to reply atleast Again Same story see how many days you have utilized the money Arriving late: Please expect a delay of 1-2 d",
+  "brand_first": "Have you reported the issue to our support team from the link provided above? ^SA",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_108",
+  "text": "Witness the smart speaker revolution. #AskAlexa Click to register for your invite - <url> <url>",
+  "ctx": "Witness the smart speaker revolution. #AskAlexa Click to register for your invite - <url> <url> Is there a criteria for handing out invites? Seems like ppl who dont really want the device are getting those #twiddlingthumbs Thanks for replying all the same. I'l",
+  "brand_first": "Due to heavy demand, we send limited number of invites each week. Keep an eye on your inbox. ^NR 2/2",
+  "intent": "availability_question",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_109",
+  "text": "so I connected my new arlo skill! However echo says not supported on command when asked to view! Help please #SundayFunday",
+  "ctx": "so I connected my new arlo skill! However echo says not supported on command when asked to view! Help please #SundayFunday Yes it’s enabled Sent Thank you as always!",
+  "brand_first": "Have you made sure the Alexa Skill is enabled? Follow this short list and see if it helps: <url> ^MJ",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "medium"
+ },
+ {
+  "example_id": "gold_110",
+  "text": "have the problem with new product (moto g) plz help",
+  "ctx": "have the problem with new product (moto g) plz help",
+  "brand_first": "Sorry to hear that. Have this reported to our support team here: <url> for immediate assistance. ^JC",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_111",
+  "text": "Im having problems to connect to ur service via PS4-App. Other apps like YouTube doin fine. Is there a servermaintaince?",
+  "ctx": "Im having problems to connect to ur service via PS4-App. Other apps like YouTube doin fine. Is there a servermaintaince?",
+  "brand_first": "Sorry to hear. What happens when you use it? Are you getting error messages? ^PK",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_112",
+  "text": "Signs of getting old #738: no tv at night...silence, or <user> plays me my musical choice",
+  "ctx": "Signs of getting old #738: no tv at night...silence, or <user> plays me my musical choice",
+  "brand_first": "Haha! We love this! Glad that you are getting awesome use out of your Echo! Let us know if we can ever be of assistance! ^KN",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_113",
+  "text": "Amazonから支払い番号のメールまだこねえ",
+  "ctx": "Amazonから支払い番号のメールまだこねえ",
+  "brand_first": "お支払番号は商品確保後に発行されます。予約商品の場合、お届け予定日を目安にお待ちください。注文が出荷準備中の場合は発行済みですので、アカウントサービスのメッセージセンター&gt;その他から確認可能です。<url> ET",
+  "intent": "payment_issue",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_114",
+  "text": "the biggest bazaar of second hand and faltu seller and #Flipkart <user>",
+  "ctx": "the biggest bazaar of second hand and faltu seller and #Flipkart <user>",
+  "brand_first": "This isn't what we thrive to cater. Kindly let us know, where did we go wrong. We will help you. ^CB",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_115",
+  "text": "prime now app crashing when ordering both iOS 10.3.3 and 11.0",
+  "ctx": "prime now app crashing when ordering both iOS 10.3.3 and 11.0",
+  "brand_first": "I'm sorry for the trouble you're experiencing! Have you tried uninstalling and reinstalling the app? ^AC",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_116",
+  "text": "damn ok the last cd i ordered from amazon jp is late it wouldnt be the first time something was annoyingly late for some reason but still",
+  "ctx": "damn ok the last cd i ordered from amazon jp is late it wouldnt be the first time something was annoyingly late for some reason but still",
+  "brand_first": "Sorry for late delivery. Please contact JP customer service and we'll check your order details: <url> ^YM",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_117",
+  "text": "Hey <user>, your quality of perishables has gone down significantly, and prices gone up by up to 33% consistently, for everyday items.",
+  "ctx": "Hey <user>, your quality of perishables has gone down significantly, and prices gone up by up to 33% consistently, for everyday items.",
+  "brand_first": "Sorry to hear. Please contact us directly here: <url> and we can look into this for you. ^PK",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_118",
+  "text": "<user> I ordered one sennheiser headphone which suppose to deliver today, till now nothing is done",
+  "ctx": "<user> I ordered one sennheiser headphone which suppose to deliver today, till now nothing is done",
+  "brand_first": "Sorry for the delay. Kindly contact out support team: <url> they will assist you further with the issue. ^GU",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_119",
+  "text": "Sind Probleme mit der App von <user> für #LG Smart TVs bekannt?",
+  "ctx": "Sind Probleme mit der App von <user> für #LG Smart TVs bekannt?",
+  "brand_first": "Ja, sind bekannt und wir arbeiten bereits daran. Trotzdem vielen Dank für deinen Hinweis. Liebe Grüße ^MF",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_120",
+  "text": "Where's my package, Amazon?",
+  "ctx": "Where's my package, Amazon?",
+  "brand_first": "Hi, what's the current status of the tracking and estimated delivery date: <url> ^JJ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_121",
+  "text": "Amazonプライムの特典どんどん進化してくなぁ いま登録してる有料会員で1番コスパの良さを感じてる",
+  "ctx": "Amazonプライムの特典どんどん進化してくなぁ いま登録してる有料会員で1番コスパの良さを感じてる",
+  "brand_first": "よろこんでいただけてうれしいです SK",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_122",
+  "text": "tengo una preguntilla a ver si podéis solucionarmela por favor",
+  "ctx": "tengo una preguntilla a ver si podéis solucionarmela por favor",
+  "brand_first": "Hola Asurancetúrix, claro, ¿cómo podemos ayudarte? ^DA",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_123",
+  "text": "Really <user>? Paying for music unlimited only allows me ONE stream? Really???",
+  "ctx": "Really <user>? Paying for music unlimited only allows me ONE stream? Really???",
+  "brand_first": "Scroll to the bottom of this page to find out about the different Amazon Music Unlimited plans; <url> ^BV",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_124",
+  "text": "I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. <url>",
+  "ctx": "I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. <url>",
+  "brand_first": "Terribly sorry for the way your parcel was delivered, Ellie! Let's help file the proper feedback: <url> ^JZ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_125",
+  "text": "i have won Prime week quiz contest day 3 winner, 5th july, but till now i dint receive the amazon pay balance #amazon #amazonindia",
+  "ctx": "i have won Prime week quiz contest day 3 winner, 5th july, but till now i dint receive the amazon pay balance #amazon #amazonindia",
+  "brand_first": "I'm sorry to hear this, champ! Please drop in your details here : <url> We will look into it ASAP. ^SB",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_126",
+  "text": "can’t believe amazon rejects negative delivery reviews .. only positive <url>",
+  "ctx": "can’t believe amazon rejects negative delivery reviews .. only positive <url>",
+  "brand_first": "We welcome all reviews on our website as long as they abide to the guidelines referred here: <url> ^NR",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_127",
+  "text": "ordered nespresso 50 pack of capsules. Ordered Sunday with Amazon prime thinking 2 day delivery. why is delivery Thursday?",
+  "ctx": "ordered nespresso 50 pack of capsules. Ordered Sunday with Amazon prime thinking 2 day delivery. why is delivery Thursday?",
+  "brand_first": "Two-Day Shipping refers to transit time once item ships Some items may be out of stock or unavailable to ship immediately. ^TR",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_128",
+  "text": "heeelp! Uma compra minha está constando como entregue, mas não foi! Não consigo falar na transp, o que faço?",
+  "ctx": "heeelp! Uma compra minha está constando como entregue, mas não foi! Não consigo falar na transp, o que faço?",
+  "brand_first": "Olá Bruna, lamentamos o inconveniente. O pedido é vendido e gestionado por Amazon ou por um vendedor externo? ^DA",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_129",
+  "text": "When you pay £4.49 to have your <user> package arrive specifically before 1pm and there's still no sign of it at 6pm....",
+  "ctx": "When you pay £4.49 to have your <user> package arrive specifically before 1pm and there's still no sign of it at 6pm....",
+  "brand_first": "I'm sorry you still haven't received your parcel! Deliveries can occur up until 21:00! Keep us posted on the arrival! ^KJ",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_130",
+  "text": "Yo <user> y’all have been letting me down lately with the service... I ordered a poster and y’all just balled it up and threw it on truck",
+  "ctx": "Yo <user> y’all have been letting me down lately with the service... I ordered a poster and y’all just balled it up and threw it on truck",
+  "brand_first": "I'm sorry to hear about this. Have you had a chance to view return / replacement options here: <url> ^GR",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_131",
+  "text": "Quality of <user> has really reached. Orders cancelled without any explanation. And no feedback.",
+  "ctx": "Quality of <user> has really reached. Orders cancelled without any explanation. And no feedback.",
+  "brand_first": "I'm sorry about the hassle. Please check the correspondence which you have received for the canceled order. ^SB",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_132",
+  "text": "<user> puchased TV fm Amazon but instalalation is pending. Please arrange d same asap Amazon Order number 171-7122932-3296367",
+  "ctx": "<user> puchased TV fm Amazon but instalalation is pending. Please arrange d same asap Amazon Order number 171-7122932-3296367",
+  "brand_first": "Apologies for the delay in installation. Kindly request you to go through this link here: <url> ^OS",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_133",
+  "text": "They cancelled my Amazon order for the ADSOM Collector's Edition Pre-ordered it months ago and now I need to order elsewhere <url>",
+  "ctx": "They cancelled my Amazon order for the ADSOM Collector's Edition Pre-ordered it months ago and now I need to order elsewhere <url>",
+  "brand_first": "I'm really sorry for the disappointment caused! ^AT",
+  "intent": "cancellation",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_134",
+  "text": "サドル Amazonで長男がポチッとなしてくれました <url>",
+  "ctx": "サドル Amazonで長男がポチッとなしてくれました <url>",
+  "brand_first": "風通しがよさそうなサドルですね( ´∀｀)bｸﾞｯ! Amazonのご利用ありがとうございます。 またのご利用お待ちしております。 (*´-`).｡oO(ご子息様も、ありがとうございました～)TY",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_135",
+  "text": "<user> I haven't received my order of oneplus5 despite of being prime member why should I pay extra for this membership",
+  "ctx": "<user> I haven't received my order of oneplus5 despite of being prime member why should I pay extra for this membership",
+  "brand_first": "I'm sorry, we ship the packages to meet the estimates provided while placing the order. Did we happen to miss it? ^VN",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_136",
+  "text": "my kindle is not working and I find no Amazon service center in Hyderabad. Need help :(",
+  "ctx": "my kindle is not working and I find no Amazon service center in Hyderabad. Need help :(",
+  "brand_first": "We'd like to have a look into this. Kindly report your query to our Kindle support team here: <url> ^AB",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_137",
+  "text": "your customer service is really helpful. (Notice the names and times) <url>",
+  "ctx": "your customer service is really helpful. (Notice the names and times) <url>",
+  "brand_first": "I'm sorry for the delay in answering your question! Were you able to get everything taken care of by the end of the chat? ^BH",
+  "intent": "feedback",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_138",
+  "text": "Wanted to get an Echo <url> long time ago, now that Amazon has launched it in India, no monies :(",
+  "ctx": "Wanted to get an Echo <url> long time ago, now that Amazon has launched it in India, no monies :(",
+  "brand_first": "We are just getting started with Amazon India. Save up all the money you can to get one soon. #HappyShopping ^VM",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_139",
+  "text": "Bro. Amazon Prime Now just cancelled my order for no reason",
+  "ctx": "Bro. Amazon Prime Now just cancelled my order for no reason",
+  "brand_first": "Oh no! Have you been able to check your e-mails to see if there's a message? Be sure to check your junk/spam folder! ^NM",
+  "intent": "cancellation",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_140",
+  "text": "you really need to get better about #sustainable packaging and common sense packaging! This is ridics! <url>",
+  "ctx": "you really need to get better about #sustainable packaging and common sense packaging! This is ridics! <url>",
+  "brand_first": "We're always looking to improve! Please submit packaging feedback to our packaging team here: <url> ^WT",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_141",
+  "text": "FANCY PAPER BAG SPECIAL TEXTURED GIFT BAG (PACK OF 10) 15cm X 6cm X 20cm <url> charge was charged 5 times.",
+  "ctx": "FANCY PAPER BAG SPECIAL TEXTURED GIFT BAG (PACK OF 10) 15cm X 6cm X 20cm <url> charge was charged 5 times.",
+  "brand_first": "Please report this to our support team here: <url> ^HA",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_142",
+  "text": "why do amazon give delivery agent's mobile if its not active or switch off?",
+  "ctx": "why do amazon give delivery agent's mobile if its not active or switch off?",
+  "brand_first": "I'm sorry if you were unable to reach the delivery agent. Packages are ideally delivered till 8 PM, please wait until then. ^JC",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_143",
+  "text": "帰りたいが、Amazonで買った商品が届かない。時間指定では14時から16時なのに…。",
+  "ctx": "帰りたいが、Amazonで買った商品が届かない。時間指定では14時から16時なのに…。",
+  "brand_first": "大変ご不便をおかけしております。お調べしたうえで対応させていただきますので、お手数ですが、こちらよりカスタマーサービスにお問い合わせください。<url> RI",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_144",
+  "text": "blunder, I have to pay ₹3250 more to give away my Nexus 5 in exchange offer. Instead ₹32,999 I have to pay ₹36,249 + my Nexus 5 <url>",
+  "ctx": "blunder, I have to pay ₹3250 more to give away my Nexus 5 in exchange offer. Instead ₹32,999 I have to pay ₹36,249 + my Nexus 5 <url>",
+  "brand_first": "That's strange. Please report this here: <url> We'll look into it. .^RS",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_145",
+  "text": "Kann man schon sagen, wann #Grimm Staffel 6 in deutsch über #AmazonPrime verfügbar sein wird?",
+  "ctx": "Kann man schon sagen, wann #Grimm Staffel 6 in deutsch über #AmazonPrime verfügbar sein wird?",
+  "brand_first": "Leider nein Bleib uns treu, und du verpasst Nichts. ^DW",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_146",
+  "text": "??? <url>",
+  "ctx": "??? <url>",
+  "brand_first": "Kindly get in touch with us here: <url> and we’ll be glad to help you. ^NS",
+  "intent": "other",
+  "action": "escalate",
+  "reason": "unsupported_or_ambiguous_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_147",
+  "text": "TROND LED Gooseneck Floor Lamp for Reading, Crafts, Crocheting, Knitting or Sewing - Shop… <url> <url>",
+  "ctx": "TROND LED Gooseneck Floor Lamp for Reading, Crafts, Crocheting, Knitting or Sewing - Shop… <url> <url> Where do I find this on the web site?",
+  "brand_first": "",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_148",
+  "text": "ねぇ、ヤマト届くのずーーーっと待ってたんだけど、勝手にアマゾンで注文したのが返品扱い尚且つ2.3日以内に返金しますって表示されてるけどこれ何！？アマゾンが悪いの？ヤマトが悪いの？ スーファミ届くの今日家でずっと待ってたんですけど、せめて連絡してきてくれませんか？おこやぞ！",
+  "ctx": "ねぇ、ヤマト届くのずーーーっと待ってたんだけど、勝手にアマゾンで注文したのが返品扱い尚且つ2.3日以内に返金しますって表示されてるけどこれ何！？アマゾンが悪いの？ヤマトが悪いの？ スーファミ届くの今日家でずっと待ってたんですけど、せめて連絡してきてくれませんか？おこやぞ！",
+  "brand_first": "このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日<url> RI",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_149",
+  "text": "Amazonでバインダーと(やっと)フォーチュンハンドクリームを手に入れたまうです。 舞い上がっております( ՞ټ՞) <url>",
+  "ctx": "Amazonでバインダーと(やっと)フォーチュンハンドクリームを手に入れたまうです。 舞い上がっております( ՞ټ՞) <url>",
+  "brand_first": "舞い上がっちゃいますよね～ \\( °∀° )/ Amazonをご利用いただき、ありがとうございました！ RI",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_150",
+  "text": "Excited to see what the Indian version of Alexa has to offer . <user> can it make chai? #Alexa #indiatech #AmazonEcho",
+  "ctx": "Excited to see what the Indian version of Alexa has to offer . <user> can it make chai? #Alexa #indiatech #AmazonEcho",
+  "brand_first": "Alexa wouldn't be able to make Chai, she might surely help you order one. ^EM",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_151",
+  "text": "has failed to deliver and that too because of the courier partner....they are not serious about their customers n its sad",
+  "ctx": "has failed to deliver and that too because of the courier partner....they are not serious about their customers n its sad",
+  "brand_first": "I'm sorry for the miss. Kindly contact our team here: <url> and we'll have this sorted. ^GK",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_152",
+  "text": "箱大きすぎでしょ、amazonさん <url>",
+  "ctx": "箱大きすぎでしょ、amazonさん <url>",
+  "brand_first": "適切な大きさの梱包にての配送となっておらず、ご不便をおかけしております。当サイトではサービス改善のため梱包についてのご意見を承っております。よろしければ、ご意見をお聞かせください。<url> ET",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_153",
+  "text": "where df my phone case at ?",
+  "ctx": "where df my phone case at ?",
+  "brand_first": "Have we missed the delivery date? If so, who's the carrier and what's the tracking? Check here: <url> ^GL",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_154",
+  "text": "<user> Pls check the spec details sir....there is wrong info provided the #motoG5Splus Check this <url>",
+  "ctx": "<user> Pls check the spec details sir....there is wrong info provided the #motoG5Splus Check this <url>",
+  "brand_first": "Thanks for flagging this, Sumit. We'll have this taken up internally. ^MS",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_155",
+  "text": "No tiene ni dos días que compré en <user>. Ya llegó mi pedido, estoy sorprendida de lo eficientes que son... ¡me encanta! Soy fan.",
+  "ctx": "No tiene ni dos días que compré en <user>. Ya llegó mi pedido, estoy sorprendida de lo eficientes que son... ¡me encanta! Soy fan.",
+  "brand_first": "Hola Mandujano. Gracias por tu comentario tan bonito. Nos alegra que estás feliz con tu compra.¿Qué fué lo que pediste? ^JJ",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_156",
+  "text": "何探そうと思ってAmazon開いたんだっけ",
+  "ctx": "何探そうと思ってAmazon開いたんだっけ",
+  "brand_first": "( あるあるですね・・・お探し物が見つかりますように・・！ )O o｡.(´-`*) SK",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_157",
+  "text": "<user> I used the Citibank Credit card to order <user> it was rejected. now i canot use the citibank discount again, help!",
+  "ctx": "<user> I used the Citibank Credit card to order <user> it was rejected. now i canot use the citibank discount again, help!",
+  "brand_first": "We are sorry to hear that. Please reach us via: <url> and we'll look into this for you. ^VM",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_158",
+  "text": "Hey <user> you need to stop using <user> they refused to deliver my packages to my front door because my mailbox was full, never told me.",
+  "ctx": "Hey <user> you need to stop using <user> they refused to deliver my packages to my front door because my mailbox was full, never told me.",
+  "brand_first": "Sorry about this, Vanessa! Have you reached out to your local US Postal Service? If so, what info did they provide? ^VB",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_159",
+  "text": "Hola, me tendría que haber llegado un paquete pero no aparece el vendedor... Me podéis ayudar?",
+  "ctx": "Hola, me tendría que haber llegado un paquete pero no aparece el vendedor... Me podéis ayudar?",
+  "brand_first": "Hola, lamentamos las molestias. ¿Cuál es la fecha estimada de entrega de tu pedido? ^LG",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_160",
+  "text": "有料動画閲覧履歴があり未納料金が発生しています。本日ご連絡なき場合法的手続きに移行します。03-6709-1770 アマゾンサポートセンター これって架空請求ってやつですか?",
+  "ctx": "有料動画閲覧履歴があり未納料金が発生しています。本日ご連絡なき場合法的手続きに移行します。03-6709-1770 アマゾンサポートセンター これって架空請求ってやつですか?",
+  "brand_first": "アマゾンです。はい、ご認識の通り、当サイトからの連絡ではございません。企業を装い個人情報を取得しようとする詐欺が発生しておりますので、記載の電話番号にはご連絡なさいませんようお願いいたします。ET",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_161",
+  "text": "pathetic service for delivery of items specially for prime customers. Pathetic and rude delivery agents by Amazon",
+  "ctx": "pathetic service for delivery of items specially for prime customers. Pathetic and rude delivery agents by Amazon",
+  "brand_first": "Sorry for the trouble. Could you please tell us more about the issue for better understanding? ^HN",
+  "intent": "service_complaint",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_162",
+  "text": "Queria muito que os livros do Augusto Cury estivem disponíveis no catálogo do Kindle Unlimited <user>",
+  "ctx": "Queria muito que os livros do Augusto Cury estivem disponíveis no catálogo do Kindle Unlimited <user>",
+  "brand_first": "No site sempre anunciamos as novidades. Fique de olho ^VL",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_163",
+  "text": "En janvier ça fera un an que j'attend mon disque dur pour Xbox One Autant dire que jcommanderai plus chez vs avec vos livreurs",
+  "ctx": "En janvier ça fera un an que j'attend mon disque dur pour Xbox One Autant dire que jcommanderai plus chez vs avec vos livreurs",
+  "brand_first": "Bonsoir, je suis désolée pour cela,, êtes-vous sûr que la commande a été finalisée? Si oui, que dit le suivi de votre colis?^FT",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_164",
+  "text": "さっきAmazonに電話で問い合わせたら、ミニスーファミは返品&amp;返金でキャンセル扱い。で、現在の価格で買えと言われたし、定価との差額の補填はしてもらえないらしい。予約した意味………。",
+  "ctx": "さっきAmazonに電話で問い合わせたら、ミニスーファミは返品&amp;返金でキャンセル扱い。で、現在の価格で買えと言われたし、定価との差額の補填はしてもらえないらしい。予約した意味………。",
+  "brand_first": "このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日<url> RI",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_165",
+  "text": "This is the 3rd Amazon Prime order in a row that has missed the \"guaranteed delivery by\" date. All were shipped with AMZL US.",
+  "ctx": "This is the 3rd Amazon Prime order in a row that has missed the \"guaranteed delivery by\" date. All were shipped with AMZL US.",
+  "brand_first": "Sorry to hear this! Please give us your info here: <url> and a specialist will contact you. ^VB",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_166",
+  "text": "ミニスーファミ返送中って…Amazon_(:3 」∠)_",
+  "ctx": "ミニスーファミ返送中って…Amazon_(:3 」∠)_",
+  "brand_first": "このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日<url>",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_167",
+  "text": "<user> <user> I am waiting for now 3 months to get my money back, but i always get to wait more and more. 1/2",
+  "ctx": "<user> <user> I am waiting for now 3 months to get my money back, but i always get to wait more and more. 1/2",
+  "brand_first": "Sorry for the delay Pranjal. Please share your details here: <url> and I'll get back to you. ^HN",
+  "intent": "refund_request",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_168",
+  "text": "Hallo <user> - die Idee mit dem eigenen Logistikservice war eine Schnappsidee. Verspätet und unfreundliche Fahrer. Katastrophe.",
+  "ctx": "Hallo <user> - die Idee mit dem eigenen Logistikservice war eine Schnappsidee. Verspätet und unfreundliche Fahrer. Katastrophe.",
+  "brand_first": "Hi, gerne kannst du uns weitere Informationen (Bestellnummer etc.) über folgendenLink schicken: <url> Gruß ^MI",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_169",
+  "text": "So it looks like <user> doesn’t tape up both sides of #Prime orders anymore. It’s just open, time to check if stuff is missing or broken. <url>",
+  "ctx": "So it looks like <user> doesn’t tape up both sides of #Prime orders anymore. It’s just open, time to check if stuff is missing or broken. <url> Thanks will be checking them all, and the blu rays as well",
+  "brand_first": "Hello, I am sorry to see this. Please let us know if anything is broken or missing. ^CR",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_170",
+  "text": "<user> <user> Order#408-3265294-3245900, 5 days not got my product yet, This is the worse exp in my life , Goodbye amazon",
+  "ctx": "<user> <user> Order#408-3265294-3245900, 5 days not got my product yet, This is the worse exp in my life , Goodbye amazon",
+  "brand_first": "Please don't provide your order details, we consider it to be personal information. Our page is visible to the public.(2/2)^GD",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_171",
+  "text": "Dear amazon my item has been delivered to somewhere else, instead of delivering it to me. No response. #HateAmazon #BadService <url>",
+  "ctx": "Dear amazon my item has been delivered to somewhere else, instead of delivering it to me. No response. #HateAmazon #BadService <url> Thanks Amazon, I received now without my signature on receiving receipt.",
+  "brand_first": "Sorry for the trouble Ravi. Kindly report this to our support team here: <url> and we'll check this. ^HN",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_172",
+  "text": "get cut off after 25 mins on the phone. Guaranteed a delivery today. Not even with the courier...your customer service is a joke!",
+  "ctx": "get cut off after 25 mins on the phone. Guaranteed a delivery today. Not even with the courier...your customer service is a joke! It says arriving today but been told it's not coming today. Royal Mail but they have no record of the parcel.I want it cancelled i",
+  "brand_first": "I'm so sorry that your item didn't arrive in time! Can you tell me the status &amp; carrier: <url> ^FR",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_173",
+  "text": "I bought the Love Rosie soundtrack in June 2015 but it's no longer available so I can't listen to it? <user> <user> <url>",
+  "ctx": "I bought the Love Rosie soundtrack in June 2015 but it's no longer available so I can't listen to it? <user> <user> <url> Like when I search the album on Amazon, same log in and everything, it tells me to buy it again when my own purchase is unavailable <url> ",
+  "brand_first": "That doesn't sound right! When you have a chance, please phone us here <url> for some troubleshooting.^LB",
+  "intent": "availability_question",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_174",
+  "text": "When <user> guarantees prime shipping and then on the delivery date decides it will actually take 5 more days....thanks",
+  "ctx": "When <user> guarantees prime shipping and then on the delivery date decides it will actually take 5 more days....thanks No. I did put through a request for cancellation.",
+  "brand_first": "My apologies for the delay. Was a reason given for the delay? ^PK",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_175",
+  "text": "help please",
+  "ctx": "help please thanks <user> <user> Beasted",
+  "brand_first": "We're happy to help! Without providing account specifics, can you please tell us a bit more? ^ST",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_176",
+  "text": "after reporting copyrightinfringement you repeatedly say you removed the page. But its still there!! : <url>",
+  "ctx": "after reporting copyrightinfringement you repeatedly say you removed the page. But its still there!! : <url> Thank You Amazon! We appreciate you taking copyright infringement seriously.",
+  "brand_first": "The product is no longer available on the website. ^HR",
+  "intent": "product_issue",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_177",
+  "text": "My item arrives early in Edinburgh, great its only 12 miles to my house. Then we see the incompetent planning where my jacket goes to Dundee 49 miles North. Where it still has to come to me another 49 miles South. What i",
+  "ctx": "My item arrives early in Edinburgh, great its only 12 miles to my house. Then we see the incompetent planning where my jacket goes to Dundee 49 miles North. Where it still has to come to me another 49 miles South. What is going on? <url> 2100, I have lost an e",
+  "brand_first": "Hi! Deliveries can occur until 21:00. Please let us know if it doesn't arrive by then, Stephen! ^LB",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_178",
+  "text": "Hi, as a usually-happy customer, am not very happy today. I ordered 2 books on Monday, Prime 1-day. Now Friday &amp; still not here?",
+  "ctx": "Hi, as a usually-happy customer, am not very happy today. I ordered 2 books on Monday, Prime 1-day. Now Friday &amp; still not here? Yes, dispatched on schedule. But since then, 1 \"missed\" delivery even tho I was in. Since then been \"out for delivery\", but not",
+  "brand_first": "Sorry to hear it Hannah- Have the books dispatched and been assigned a carrier or? ^NV",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_179",
+  "text": "just saying, to keep up the good work with having nerdy responses on Alexa, you should have a programmed response for (cont'd)",
+  "ctx": "just saying, to keep up the good work with having nerdy responses on Alexa, you should have a programmed response for (cont'd) \"R2, I need you to turn off the autopilot!\" Or the Star Trek equivalent, \"Computer, disengage autopilot &amp; switch to manual contro",
+  "brand_first": "Hmmm...very wise, that is! Always looking to keep things nerdy we are. Quirky and fun, that is the Amazon way. ^JD",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_180",
+  "text": "<user> I preordered SWBF2 delux edition in April. Still no beta code. I’m not the only person with the same issue. Infuriating!",
+  "ctx": "<user> I preordered SWBF2 delux edition in April. Still no beta code. I’m not the only person with the same issue. Infuriating! No. All of the reply’s I’ve read have all said that nothing would be done from amazon of the people that contacted. Very dishearteni",
+  "brand_first": "I'm sorry you haven't received your code! Have you reported this to our Customer Support team: <url> ^ME",
+  "intent": "delivery_status",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_181",
+  "text": "I'm going out of state from today evening &amp; I don't have any good neighbor to receive my package so I urge you to deliver my (1/2)",
+  "ctx": "I'm going out of state from today evening &amp; I don't have any good neighbor to receive my package so I urge you to deliver my (1/2) but I'm leaving today at 6pm. &amp; the package is already in my town. Where is the problem???",
+  "brand_first": "we'll not be able to promise delivery before then. Kindly wait until the estimated delivery date 2/3 ^SH",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_182",
+  "text": "Echo Plus: everything you love about Echo, now with a built in smart home hub. <url>",
+  "ctx": "Echo Plus: everything you love about Echo, now with a built in smart home hub. <url> Does it control Z-Wave products? Basically will it replace my wink hub?",
+  "brand_first": "You can check it out here: <url> ^MC",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_183",
+  "text": "Hey <user> your app is throwing errors while I try to make the payment. Tried a number of times already!! My orders got cancelled :( <url>",
+  "ctx": "Hey <user> your app is throwing errors while I try to make the payment. Tried a number of times already!! My orders got cancelled :( <url> Will do, thanks!! Also, for the said problem, I was trying to make the payment through HDFC Netbanking.",
+  "brand_first": "That's strange. Please contact us here: <url> and we'll help you with this. ^SQ",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_184",
+  "text": "I received a amazon.fr gift card but need the balance on my <url> account. How can I do this?",
+  "ctx": "I received a amazon.fr gift card but need the balance on my <url> account. How can I do this? That's no good. Are you sure? Can he get a refund? It was a gift and he very old and gets confused. I am trying to fix it without having to complain to him and making",
+  "brand_first": "Amazon.fr gift cards can only be used on Amazon.fr and are not transferable. ^PK",
+  "intent": "account_access",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_185",
+  "text": "Customer Care Associate is saying we don't have supervisor totally hopeless",
+  "ctx": "Customer Care Associate is saying we don't have supervisor totally hopeless Tell me??? First tell me after 7 pm customer care associate they don't have supervisor Today I received my order 1 product is leaking and another is missing , refund is issued but not ",
+  "brand_first": "I'm sorry about any inconvenience. Could you tell us more on this? We'll be happy to help. ^SG",
+  "intent": "service_complaint",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_186",
+  "text": "<user> - this is what u deliver for fresh veggies <user> ...ridiculous <url>",
+  "ctx": "<user> - this is what u deliver for fresh veggies <user> ...ridiculous <url> <user> <user> How long does your investigation take? I have already emailed to __email__ and __email__ and haven't got any revert from there as well And I had called the Amazon suppor",
+  "brand_first": "We apologize for hassle. Allow our support team to investigate this. You can report this here: <url> ^CB.",
+  "intent": "product_issue",
+  "action": "escalate",
+  "reason": "account_or_security",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_187",
+  "text": "worst cust service.Order still nt deliver.No info of tracking num.they jst focus on sale.Hardly matter seller is genuine or not.",
+  "ctx": "worst cust service.Order still nt deliver.No info of tracking num.they jst focus on sale.Hardly matter seller is genuine or not. Why don't u share tracking details. You have added Seller with half info. You don't have seller contact num I hve nt received the p",
+  "brand_first": "We ship the products to meet the estimates Chetan. Could you please tell us if we've missed the estimated delivery date? ^HN",
+  "intent": "service_complaint",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_188",
+  "text": "Really disappointed. Tried same day delivery again and it looks like it wasn’t delivered (again). So much for surprise gift!",
+  "ctx": "Really disappointed. Tried same day delivery again and it looks like it wasn’t delivered (again). So much for surprise gift! Sent the details on customer service section of the app. Please can you provide update on Delivery status Email form. And still the ord",
+  "brand_first": "I'm sorry your order has yet to arrive. Please contact us here so we can look into this: <url> ^GG",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_189",
+  "text": "Dont trust <user> They give fake products and when it comes to replacement or return they will not do They will not respond to you",
+  "ctx": "Dont trust <user> They give fake products and when it comes to replacement or return they will not do They will not respond to you I have been calling for one issue from last 1 month but they haven’t gave the solution And saying me to bear loss why shall I ? I",
+  "brand_first": "Sorry for any inconvenience. Could you please let us know if there is any pending issue from our end? We'd like to help. ^AS",
+  "intent": "product_issue",
+  "action": "escalate",
+  "reason": "legal_or_safety_issue",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_190",
+  "text": "Really poor delivery service. Please keep your words whatever you commit.",
+  "ctx": "Really poor delivery service. Please keep your words whatever you commit. I need my product at any cost today. Else i have to process an refund request for the same Have placed order for iphone 6 with guaranteed delivery within 24 hrs paying extra 150/- but ti",
+  "brand_first": "I'm sorry for that. Could you please elaborate your concern so that I can assist you accordingly? ^AU",
+  "intent": "service_complaint",
+  "action": "escalate",
+  "reason": "financial_request",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_191",
+  "text": "I love how I pay for Prime and my package that I really needed in 2 days is going to take over a week to get to me <user>",
+  "ctx": "I love how I pay for Prime and my package that I really needed in 2 days is going to take over a week to get to me <user>",
+  "brand_first": "We're here to help! Have we missed our expected delivery date we provided? Check here: <url> ^JE",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_192",
+  "text": "Awesome offer from <user> <user> <user> 32GB Class10 Microsd Card only Rs.23,934 <url>",
+  "ctx": "Awesome offer from <user> <user> <user> 32GB Class10 Microsd Card only Rs.23,934 <url>",
+  "brand_first": "Baiju, prices are solely to the seller's discretion, the price you see is the best we can offer at the moment. ^MS",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_193",
+  "text": "I love <user>.. there was a minor error on my delivery and they still gave me a free month of prime and 20% off that purchase!",
+  "ctx": "I love <user>.. there was a minor error on my delivery and they still gave me a free month of prime and 20% off that purchase!",
+  "brand_first": "Thanks for the nice feedback. ^KM",
+  "intent": "delayed_delivery",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_194",
+  "text": "Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>",
+  "ctx": "Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>",
+  "brand_first": "Prices on our website are set by sellers. As we constantly receive new data from the market, our prices fluctuate over time. ^HK",
+  "intent": "pricing_charge",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_195",
+  "text": "hi amazon. Please can you send me a link to reach customer service? I’ve a problem with my order delivery. Thanks",
+  "ctx": "hi amazon. Please can you send me a link to reach customer service? I’ve a problem with my order delivery. Thanks",
+  "brand_first": "I'm sorry to hear there was a problem, Paul! We can be reached via phone/chat here: <url> ^ML",
+  "intent": "delivery_status",
+  "action": "auto_handle",
+  "reason": "routine_request_with_clear_policy",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_196",
+  "text": "Thank you #Kindle for being with me through all the good days and bad days and now you are my ever lasting friend",
+  "ctx": "Thank you #Kindle for being with me through all the good days and bad days and now you are my ever lasting friend",
+  "brand_first": "Friends are the siblings God never gave us.-Mencius Thanks for the kind words, we loved them ^CB",
+  "intent": "general_info",
+  "action": "auto_handle",
+  "reason": "low_risk_routine_request",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_197",
+  "text": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+  "ctx": "1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick up.",
+  "brand_first": "I'm so sorry for this experience! We'd like to look in to this with you. Please click here: <url> ^NM",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "hard"
+ },
+ {
+  "example_id": "gold_198",
+  "text": "Is this happened with any one? <user> is getting worst day by day. I contacted them regarding this. bt they r just circling around <url>",
+  "ctx": "Is this happened with any one? <user> is getting worst day by day. I contacted them regarding this. bt they r just circling around <url>",
+  "brand_first": "Sorry for the experience, Nagraj. Kindly fill in your details here: <url> and we will get back to you. ^KS",
+  "intent": "service_complaint",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "easy"
+ },
+ {
+  "example_id": "gold_199",
+  "text": "Amazon delivery is the worst!Had a package stolen yesterday..I'm thinking the delivery driver left it at the wrong house..AGAIN! <user>",
+  "ctx": "Amazon delivery is the worst!Had a package stolen yesterday..I'm thinking the delivery driver left it at the wrong house..AGAIN! <user>",
+  "brand_first": "Hey Esha! My team would like to look into this with you. Please give us more details about this here: <url>",
+  "intent": "delayed_delivery",
+  "action": "escalate",
+  "reason": "angry_customer",
+  "difficulty": "hard"
+ }
+]

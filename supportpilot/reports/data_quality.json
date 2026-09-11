@@ -1,0 +1,64 @@
+{
+  "null_rates": {
+    "conversations_with_empty_first_customer_message": 0,
+    "cases_with_empty_brand_response": 0
+  },
+  "duplicate_rate_first_customer_message": 0.0048,
+  "conversation_length": {
+    "min": 2,
+    "median": 3,
+    "max": 39,
+    "mean": 4.86
+  },
+  "brand_distribution": {
+    "AmazonHelp": 8000
+  },
+  "intent_distribution_cases": {
+    "delivery_status": 1101,
+    "delayed_delivery": 787,
+    "general_info": 701,
+    "refund_request": 521,
+    "product_issue": 519,
+    "service_complaint": 398,
+    "account_access": 324,
+    "availability_question": 312,
+    "pricing_charge": 281,
+    "payment_issue": 200,
+    "feedback": 193,
+    "other": 172,
+    "cancellation": 104
+  },
+  "intent_distribution_golden": {
+    "delivery_status": 33,
+    "delayed_delivery": 28,
+    "service_complaint": 26,
+    "general_info": 19,
+    "feedback": 19,
+    "product_issue": 18,
+    "refund_request": 12,
+    "payment_issue": 11,
+    "other": 9,
+    "account_access": 8,
+    "pricing_charge": 7,
+    "cancellation": 5,
+    "availability_question": 4
+  },
+  "split_overlap": {
+    "retrieval_cases": 5613,
+    "golden_conversations": 199,
+    "conversation_id_overlap": 0
+  },
+  "exact_text_leakage": {
+    "n": 0,
+    "examples": []
+  },
+  "near_duplicate_leakage": {
+    "n": 3,
+    "example_ids": [
+      "gold_036",
+      "gold_164",
+      "gold_175"
+    ]
+  },
+  "verdict": "PASS (0 conversation overlap, 0 exact-text leakage; 3 natural near-duplicate messages across distinct conversations - noted as a retrieval-bias warning)"
+}

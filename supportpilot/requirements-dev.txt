@@ -1,0 +1,16 @@
+# Development / QA dependencies — everything not needed to run the agent.
+# Core runtime deps live in requirements.txt.
+pip-tools>=7.4
+
+# testing
+pytest>=8.0
+pytest-cov>=5.0
+
+# lint + format + types
+ruff>=0.14
+mypy>=1.11
+types-pyyaml>=6.0
+types-requests>=2.31
+
+# git hooks
+pre-commit>=3.7

@@ -1,0 +1,385 @@
+{
+  "n": 50,
+  "agreement": {
+    "exact_agreement": 0.02,
+    "within_one_agreement": 0.1,
+    "acceptable_agreement": 0.28,
+    "pearson_r": 0.0809,
+    "n": 50
+  },
+  "human_rated_auto_handle": {
+    "n_auto_handled": 10,
+    "n_unsafe": 3,
+    "human_unsafe_auto_handle_rate": 0.3,
+    "unsafe_examples": [
+      {
+        "example_id": "gold_192",
+        "human_overall": 3.45,
+        "reply": "Prices are set by the sellers. Our current prices are the best we can offer."
+      },
+      {
+        "example_id": "gold_054",
+        "human_overall": 3.65,
+        "reply": "I'm sorry to hear about your concern. Please provide your order details so we can assist you better. You can check your order details here: "
+      },
+      {
+        "example_id": "gold_016",
+        "human_overall": 2.75,
+        "reply": "For your inquiry about the availability of the Alexa app in India, you can refer to the link provided earlier: <url>. They will be available"
+      }
+    ]
+  },
+  "per_example": [
+    {
+      "example_id": "gold_192",
+      "judge_overall": 1.4,
+      "human_overall": 3.45,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_040",
+      "judge_overall": 1.4,
+      "human_overall": 4.05,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_186",
+      "judge_overall": 1.4,
+      "human_overall": 4.75,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_116",
+      "judge_overall": 2.6,
+      "human_overall": 4.4,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_133",
+      "judge_overall": 2.2,
+      "human_overall": 4.75,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_054",
+      "judge_overall": 2.9,
+      "human_overall": 3.65,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_016",
+      "judge_overall": 1.7,
+      "human_overall": 2.75,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_123",
+      "judge_overall": 1.4,
+      "human_overall": 4.4,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_064",
+      "judge_overall": 2.7,
+      "human_overall": 2.7,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_001",
+      "judge_overall": 2.5,
+      "human_overall": 4.7,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_008",
+      "judge_overall": 1.4,
+      "human_overall": 4.55,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_145",
+      "judge_overall": 1.7,
+      "human_overall": 2.55,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_101",
+      "judge_overall": 2.6,
+      "human_overall": 4.35,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_134",
+      "judge_overall": 1.4,
+      "human_overall": 4.1,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_090",
+      "judge_overall": 1.7,
+      "human_overall": 3.85,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_120",
+      "judge_overall": 2.2,
+      "human_overall": 4.7,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_169",
+      "judge_overall": 1.4,
+      "human_overall": 4.1,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_157",
+      "judge_overall": 2.7,
+      "human_overall": 4.6,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_022",
+      "judge_overall": 2.7,
+      "human_overall": 4.05,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_027",
+      "judge_overall": 3.1,
+      "human_overall": 4.2,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_018",
+      "judge_overall": 1.4,
+      "human_overall": 4.1,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_121",
+      "judge_overall": 1.4,
+      "human_overall": 3.2,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_096",
+      "judge_overall": 2.0,
+      "human_overall": 4.0,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_041",
+      "judge_overall": 1.4,
+      "human_overall": 4.75,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_028",
+      "judge_overall": 1.4,
+      "human_overall": 3.9,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_108",
+      "judge_overall": 2.0,
+      "human_overall": 4.8,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_124",
+      "judge_overall": 2.2,
+      "human_overall": 3.2,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_043",
+      "judge_overall": 1.4,
+      "human_overall": 4.1,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_093",
+      "judge_overall": 1.7,
+      "human_overall": 2.95,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_050",
+      "judge_overall": 2.2,
+      "human_overall": 4.05,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_197",
+      "judge_overall": 1.7,
+      "human_overall": 4.05,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_013",
+      "judge_overall": 1.4,
+      "human_overall": 4.1,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_139",
+      "judge_overall": 2.0,
+      "human_overall": 3.1,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_091",
+      "judge_overall": 1.4,
+      "human_overall": 4.3,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_126",
+      "judge_overall": 2.5,
+      "human_overall": 4.0,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_079",
+      "judge_overall": 1.4,
+      "human_overall": 3.95,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_083",
+      "judge_overall": 1.7,
+      "human_overall": 3.2,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_195",
+      "judge_overall": 2.6,
+      "human_overall": 5.0,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_113",
+      "judge_overall": 1.4,
+      "human_overall": 4.75,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_098",
+      "judge_overall": 1.7,
+      "human_overall": 4.0,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_160",
+      "judge_overall": 1.4,
+      "human_overall": 3.9,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_117",
+      "judge_overall": 1.4,
+      "human_overall": 2.7,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_144",
+      "judge_overall": 1.7,
+      "human_overall": 3.1,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_173",
+      "judge_overall": 3.1,
+      "human_overall": 4.35,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_125",
+      "judge_overall": 1.4,
+      "human_overall": 2.95,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_194",
+      "judge_overall": 2.9,
+      "human_overall": 2.8,
+      "judge_acceptable": false,
+      "human_acceptable": false
+    },
+    {
+      "example_id": "gold_073",
+      "judge_overall": 3.1,
+      "human_overall": 4.6,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_048",
+      "judge_overall": 1.4,
+      "human_overall": 4.75,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_136",
+      "judge_overall": 1.4,
+      "human_overall": 4.7,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    },
+    {
+      "example_id": "gold_062",
+      "judge_overall": 2.0,
+      "human_overall": 4.35,
+      "judge_acceptable": false,
+      "human_acceptable": true
+    }
+  ],
+  "interpretation": "The local 3B judge is NOT a reliable proxy for humans on this rubric (low within-one and acceptable agreement). Judge scores are reported as indicative-only; the human-rated subset is the ground truth for reply acceptability and unsafe-auto-handle claims."
+}

@@ -1,0 +1,1 @@
+{"content": "{\"reply\": \"Olá, <user>. Seu pedido está atrasado. Poderia fornecer mais detalhes para conseguirmos ajudar? Como podemos verificar a localização do seu pedido?\", \"supporting_case_ids\": [\"1\", \"3\", \"5\"], \"grounded_claims\": [\"pedido atrasado\", \"fornecer mais detalhes\"], \"sufficient_evidence\": true}"}

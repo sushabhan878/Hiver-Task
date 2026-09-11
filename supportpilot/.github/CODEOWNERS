@@ -1,0 +1,20 @@
+# CODEOWNERS — default owners for PR review.
+# Reviewers are requested automatically when their paths change.
+
+# Default: everything falls to the maintainers team.
+# Replace with your real org/team once the repo is hosted.
+* @your-org/supportpilot-maintainers
+
+# Safety-critical areas — routing policy and guardrails change what the
+# agent is allowed to auto-handle; always reviewed by maintainers.
+/src/routing/     @your-org/supportpilot-maintainers
+/configs/         @your-org/supportpilot-maintainers
+
+# Evaluation integrity — metrics, judge, golden set tooling.
+/src/evaluation/  @your-org/supportpilot-maintainers
+/data/golden/     @your-org/supportpilot-maintainers
+
+# CI and repo tooling.
+/.github/         @your-org/supportpilot-maintainers
+/pyproject.toml   @your-org/supportpilot-maintainers
+/Makefile         @your-org/supportpilot-maintainers

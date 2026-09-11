@@ -1,0 +1,80 @@
+{
+  "n": 40,
+  "intent_agreement": 0.925,
+  "action_agreement": 0.925,
+  "intent_kappa": 0.9161,
+  "disagreements": [
+    {
+      "example_id": "gold_015",
+      "pass_a": {
+        "intent": "delayed_delivery",
+        "action": "auto_handle"
+      },
+      "pass_b": {
+        "intent": "general_info",
+        "action": "auto_handle"
+      },
+      "text": "Hey <user>, does prime benefit include delayed deliveries?"
+    },
+    {
+      "example_id": "gold_165",
+      "pass_a": {
+        "intent": "delayed_delivery",
+        "action": "auto_handle"
+      },
+      "pass_b": {
+        "intent": "delayed_delivery",
+        "action": "escalate"
+      },
+      "text": "This is the 3rd Amazon Prime order in a row that has missed the \"guaranteed delivery by\" date. All were shippe"
+    },
+    {
+      "example_id": "gold_079",
+      "pass_a": {
+        "intent": "delayed_delivery",
+        "action": "escalate"
+      },
+      "pass_b": {
+        "intent": "delayed_delivery",
+        "action": "auto_handle"
+      },
+      "text": "Prime shipping is so bad. It's never on time."
+    },
+    {
+      "example_id": "gold_012",
+      "pass_a": {
+        "intent": "delivery_status",
+        "action": "auto_handle"
+      },
+      "pass_b": {
+        "intent": "delivery_status",
+        "action": "escalate"
+      },
+      "text": "He comprado en <user> y <user> dice q ha entregado el paquete q jamás llegó. No tienen pruebas y me gritan x r"
+    },
+    {
+      "example_id": "gold_140",
+      "pass_a": {
+        "intent": "general_info",
+        "action": "auto_handle"
+      },
+      "pass_b": {
+        "intent": "service_complaint",
+        "action": "auto_handle"
+      },
+      "text": "you really need to get better about #sustainable packaging and common sense packaging! This is ridics! <url>"
+    },
+    {
+      "example_id": "gold_124",
+      "pass_a": {
+        "intent": "service_complaint",
+        "action": "auto_handle"
+      },
+      "pass_b": {
+        "intent": "delivery_status",
+        "action": "auto_handle"
+      },
+      "text": "I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. <url>"
+    }
+  ]
+}

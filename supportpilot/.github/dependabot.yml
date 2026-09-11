@@ -1,0 +1,56 @@
+version: 2
+updates:
+  # Python runtime dependencies
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    target-branch: main
+    groups:
+      runtime-deps:
+        patterns:
+          - "pyyaml"
+          - "pandas"
+          - "pyarrow"
+          - "numpy"
+          - "scikit-learn"
+          - "requests"
+    labels:
+      - "dependencies"
+      - "runtime"
+    commit-message:
+      prefix: "build(deps)"
+
+  # Development/QA dependencies
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: monthly
+    target-branch: main
+    groups:
+      dev-deps:
+        patterns:
+          - "pytest*"
+          - "ruff"
+          - "mypy"
+          - "types-*"
+          - "pre-commit"
+          - "pip-tools"
+    labels:
+      - "dependencies"
+      - "dev"
+    commit-message:
+      prefix: "build(dev-deps)"
+
+  # GitHub Actions versions
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    target-branch: main
+    labels:
+      - "dependencies"
+      - "ci"
+    commit-message:
+      prefix: "ci(deps)"

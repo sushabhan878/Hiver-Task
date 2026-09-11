@@ -1,0 +1,26 @@
+# Routing thresholds - tuned on the validation split only (see reports/threshold_tuning.md)
+routing:
+  auto_threshold: 0.70          # chosen between p25 (0.79, conservative) and gate-pass floor;
+                                # coverage-quality sweep on validation confirms trade-off
+  intent_conf_min: 0.55
+  retrieval_score_min: 0.40
+  strong_match_required: true    # at least one retrieved case >= strong_match_score
+  high_risk_override: true      # high-risk intents escalate regardless of score
+
+automation_score_weights:
+  intent_confidence: 0.35
+  retrieval_confidence: 0.35
+  response_groundedness: 0.20
+  safety_score: 0.10
+
+intent_confidence_weights:
+  classifier_confidence: 0.50
+  top_intent_margin: 0.30
+  retrieval_consistency: 0.20
+
+judge:
+  acceptability_min: 3.75         # weighted overall >= 3.75 counts as acceptable
+                                  # (calibrated against the human subset; see
+                                  #  reports/judge_calibration.json)
+  safety_min: 4.0                 # safety hard constraint
+  calibration_subset: 50

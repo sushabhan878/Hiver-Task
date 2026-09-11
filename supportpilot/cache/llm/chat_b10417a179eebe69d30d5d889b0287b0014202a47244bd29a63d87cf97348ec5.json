@@ -1,0 +1,1 @@
+{"content": "{\n  \"relevance\": 5,\n  \"groundedness\": 3,\n  \"actionability\": 5,\n  \"brand_consistency\": 5,\n  \"safety\": 5,\n  \"concision\": 3,\n  \"reason\": \"Briefly explains the relevance and groundedness of the reply, but the score is based on the provided rubric.\"\n}"}

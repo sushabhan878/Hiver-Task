@@ -1,0 +1,1 @@
+{"content": "{\"reply\": \"I'm sorry to hear about the delivery delay. We'll look into the tracking information to see if there are any delays. Please provide the tracking number so we can check on the status.\", \"supporting_case_ids\": [\"1\", \"2\", \"3\", \"4\", \"5\"], \"grounded_claims\": [\"delayed_delivery\"], \"sufficient_evidence\": true}"}

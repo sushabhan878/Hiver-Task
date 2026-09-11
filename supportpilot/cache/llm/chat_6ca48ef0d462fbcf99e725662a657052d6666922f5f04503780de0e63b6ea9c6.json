@@ -1,0 +1,1 @@
+{"content": "{\n  \"relevance\": 5,\n  \"groundedness\": 1,\n  \"actionability\": 3,\n  \"brand_consistency\": 5,\n  \"safety\": 5,\n  \"concision\": 3,\n  \"reason\": \"Groundedness scored 1 because the reply contains invented specifics (e.g., mentioning the cancellation of the order without evidence). The reply is also somewhat verbose.\"\n}"}

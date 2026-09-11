@@ -1,0 +1,21 @@
+=== intent_misclassification
+  [gold_047] gold=other/pred=general_info conf=0.2869 action=escalate/escalate reason=LOW_INTENT_CONFIDENCE
+     text: またAmazonに騙された(´•ω•｀)お金返ってくればいいな
+  [gold_180] gold=product_issue/pred=delivery_status conf=0.4353 action=escalate/escalate reason=LOW_INTENT_CONFIDENCE
+     text: <user> I preordered SWBF2 delux edition in April. Still no beta code. I’m not the only person with the same issue. Infuriating!
+  [gold_197] gold=service_complaint/pred=delayed_delivery conf=1.0 action=escalate/auto_handle reason=None
+     text: 1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick 
+=== over_escalation
+  [gold_076] gold=general_info/pred=delivery_status conf=0.297 action=auto_handle/escalate reason=LOW_INTENT_CONFIDENCE
+     text: os itens que tem "Elegível Frete Grátis" significa que o item tem frete grátis certo? Ao finalizar sempre vem cobrando frete.
+  [gold_090] gold=pricing_charge/pred=pricing_charge conf=0.4764 action=auto_handle/escalate reason=LOW_INTENT_CONFIDENCE
+     text: Biggest discount lightning deal on <user> save you Rs.1 Lightning deals are becoming jokes <url> <url>
+  [gold_194] gold=pricing_charge/pred=pricing_charge conf=1.0 action=auto_handle/escalate reason=UNSUPPORTED_GENERATED_CLAIM:escalation_promise
+     text: Dear <user>: RAM I bought last week was priced lower than the current 'great indian sale' price <url>
+=== missed_escalation
+  [gold_146] gold=other/pred=other conf=0.6971 action=escalate/auto_handle reason=None
+     text: ??? <url>
+  [gold_054] gold=other/pred=other conf=0.7418 action=escalate/auto_handle reason=None
+     text: <user> what did you do? <url>
+  [gold_197] gold=service_complaint/pred=delayed_delivery conf=1.0 action=escalate/auto_handle reason=None
+     text: 1st time using <user>. Farce. Never again. Waited hour and half. Restaurant cooked food &amp; no delivery driver bothered to pick 

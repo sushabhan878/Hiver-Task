@@ -1,0 +1,37 @@
+# Auto-label PRs by changed paths. Used with actions/labeler.
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+          - ".github/**/*.md"
+
+safety-critical:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/routing/**"
+          - "configs/**"
+
+evaluation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/evaluation/**"
+          - "data/golden/**"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "requirements*.txt"
+          - "pyproject.toml"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**"
+          - "Makefile"
+
+data-pipeline:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/data/**"
+          - "scripts/download_data.py"
+          - "scripts/build_corpus.py"

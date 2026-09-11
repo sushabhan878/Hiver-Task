@@ -1,0 +1,13 @@
+# Prettier — formatting for the non-Python layer (Markdown, YAML, JSON).
+# Python is formatted by ruff (see pyproject.toml); Prettier must not
+# touch .py files. Docs stay at 80 columns for clean rendering on GitHub.
+
+printWidth: 80
+proseWrap: "preserve"
+semi: true
+singleQuote: false
+tabWidth: 2
+useTabs: false
+trailingComma: "all"
+bracketSpacing: true
+endOfLine: "lf"

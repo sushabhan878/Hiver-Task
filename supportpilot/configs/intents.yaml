@@ -1,0 +1,165 @@
+# AmazonHelp intent taxonomy (derived from data, see reports/taxonomy_discovery.md)
+# Each intent: definition, positives, negatives, boundary cases, risk tier.
+intents:
+  delivery_status:
+    name: delivery_status
+    definition: "Customer asks where their order/package is, tracking status, or expected delivery date."
+    positives:
+      - "where is my order"
+      - "any update on my package"
+      - "tracking hasn't moved"
+    negatives:
+      - "I want my money back (refund_request)"
+      - "cancel my order (cancellation)"
+    boundary: "'package is late' is delayed_delivery, not delivery_status."
+    risk: medium
+
+  delayed_delivery:
+    name: delayed_delivery
+    definition: "Customer complains an order is late, stuck, or past the promised date."
+    positives:
+      - "package still hasn't arrived"
+      - "order was due 2 days ago"
+      - "stuck in transit for days"
+    negatives:
+      - "where is my order (neutral delivery_status query)"
+    boundary: "Late + explicit money-back request -> refund_request dominates."
+    risk: medium
+
+  refund_request:
+    name: refund_request
+    definition: "Customer explicitly asks for money back, refund, or return of an order."
+    positives:
+      - "I want a refund"
+      - "refund my order"
+      - "money back for this purchase"
+    negatives:
+      - "I was charged twice (payment_issue)"
+    boundary: "Damaged item + refund -> refund_request."
+    risk: high
+
+  payment_issue:
+    name: payment_issue
+    definition: "Problems with charges, billing, double charges, card declines, or payment methods."
+    positives:
+      - "charged twice"
+      - "card was declined"
+      - "promotional credit not applied"
+    negatives:
+      - "I want a refund (refund_request)"
+    boundary: "Charged twice and want money back -> payment_issue is the surface problem; route per risk config."
+    risk: high
+
+  account_access:
+    name: account_access
+    definition: "Login failures, password resets, locked accounts, security concerns, account settings."
+    positives:
+      - "can't log into my account"
+      - "locked out"
+      - "reset my password"
+    negatives:
+      - "cancel prime membership (cancellation)"
+    boundary: "Login failure caused by suspected fraud -> account_access but flag SAFETY_CONCERN."
+    risk: high
+
+  cancellation:
+    name: cancellation
+    definition: "Customer wants to cancel an order, subscription, membership, or service."
+    positives:
+      - "cancel my order"
+      - "cancel my prime membership"
+      - "stop my subscription"
+    negatives:
+      - "I want a refund (refund_request)"
+    boundary: "Cancel + refund in same message -> refund_request (higher risk)."
+    risk: medium
+
+  product_issue:
+    name: product_issue
+    definition: "Product is defective, damaged, missing parts, wrong item, or not working as described."
+    positives:
+      - "arrived broken"
+      - "item is defective"
+      - "wrong item was sent"
+    negatives:
+      - "where is my order (delivery_status)"
+    boundary: "Digital content problems (video won't stream) -> product_issue (service)."
+    risk: medium
+
+  service_complaint:
+    name: service_complaint
+    definition: "General dissatisfaction or complaint about service experience without a specific transactional ask."
+    positives:
+      - "worst customer service ever"
+      - "this is unacceptable"
+      - "I'm switching to another company"
+    negatives:
+      - "specific asks like refund or cancel"
+    boundary: "Vague anger + embedded ask -> classify by the concrete ask."
+    risk: medium
+
+  pricing_charge:
+    name: pricing_charge
+    definition: "Questions or disputes about prices, fees, charges, or price changes."
+    positives:
+      - "why did the price go up"
+      - "what is this fee on my bill"
+    negatives:
+      - "charged twice (payment_issue)"
+    boundary: "Disputed charge already paid -> payment_issue."
+    risk: medium
+
+  availability_question:
+    name: availability_question
+    definition: "Asks if a product, service, or item is available, in stock, or offered."
+    positives:
+      - "do you have this in stock"
+      - "is this available in my country"
+    negatives:
+      - "where is my order (delivery_status)"
+    boundary: "'Will X be back in stock' -> availability_question."
+    risk: low
+
+  general_info:
+    name: general_info
+    definition: "General questions about policies, how things work, hours, services; no transactional ask."
+    positives:
+      - "how does prime shipping work"
+      - "what are your hours"
+      - "do you ship to Canada"
+    negatives:
+      - "every specific transactional intent above"
+    boundary: "If a specific intent applies, prefer it over general_info."
+    risk: low
+
+  feedback:
+    name: feedback
+    definition: "Praise, thanks, or non-actionable comments about the brand or service."
+    positives:
+      - "thanks for the quick delivery"
+      - "you guys are great"
+    negatives:
+      - "any request or complaint"
+    boundary: "Thanks + new request -> classify by the request."
+    risk: low
+
+  other:
+    name: other
+    definition: "Cannot be confidently assigned to any intent above; includes spam, noise, off-topic, non-English."
+    positives:
+      - "marketing spam"
+      - "unrelated mentions"
+    negatives:
+      - "anything classifiable"
+    boundary: "When in doubt between other and a real intent, prefer the real intent."
+    risk: medium
+
+risk_tiers:
+  low: [availability_question, general_info, feedback]
+  medium: [delivery_status, delayed_delivery, cancellation, product_issue, service_complaint, pricing_charge, other]
+  high: [refund_request, payment_issue, account_access]
+
+default_action_by_risk:
+  low: auto_handle
+  medium: conditional
+  high: escalate

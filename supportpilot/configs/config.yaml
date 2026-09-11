@@ -1,0 +1,46 @@
+# SupportPilot configuration
+paths:
+  raw_conversations: data/raw/twcs_conversations.parquet
+  raw_tweets: data/raw/twcs.parquet
+  interim: data/interim
+  processed: data/processed
+  golden: data/golden
+  cache: cache
+  reports: reports
+
+ollama:
+  base_url: http://127.0.0.1:11434
+  chat_model: qwen2.5:3b
+  embed_model: nomic-embed-text
+  temperature: 0
+  max_retries: 3
+  timeout_seconds: 300
+
+brand:
+  # Brand selection is computed by scripts.profile_dataset; this is the locked-in choice.
+  selected_brand: AmazonHelp
+  # Profiling / scoring weights (see reports/brand_selection.md)
+  score_weights:
+    conversation_count: 0.30
+    resolved_rate: 0.25
+    message_quality: 0.20
+    intent_diversity: 0.15
+    thread_completeness: 0.10
+  max_conversations: 8000          # corpus subsample for the 15-minute budget
+  min_turns: 2                      # need at least one customer + one brand turn
+  max_turns: 40
+
+retrieval:
+  method: hybrid
+  bm25_weight: 0.45
+  embedding_weight: 0.55
+  top_k: 5
+  min_score: 0.35                  # absolute hybrid-score floor for "strong" match
+  strong_match_score: 0.55
+
+split:
+  seed: 42
+  # time-aware: earlier 70% -> retrieval, next 15% -> validation, last 15% -> golden pool
+  retrieval_frac: 0.70
+  validation_frac: 0.15
+  # remainder -> golden pool

@@ -1,0 +1,6 @@
+{
+  "n_cases": 5613,
+  "embed_dim": 768,
+  "embed_model": "nomic-embed-text",
+  "chat_model": "qwen2.5:3b"
+}

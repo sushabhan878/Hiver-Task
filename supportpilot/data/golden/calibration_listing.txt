@@ -1,0 +1,50 @@
+gold_192 || auto_handle || Prices are set by the sellers. Our current prices are the best we can offer.
+gold_040 || auto_handle || I understand your concern about the inconsistent tracking information. We've seen similar issues before and we're here to help. Have you tried contacting USPS for the mos
+gold_186 || escalate || Oh no, it sounds like there's been an issue with your order. We'd like to take a closer look. Please provide your order details so we can assist you better: <url>
+gold_116 || auto_handle || I understand your frustration with the delay. Please check your order tracking to see the most recent update: <url>
+gold_133 || escalate || I understand you're having trouble with the cancellation of your order. Could you please provide your order number so we can look into this for you?
+gold_054 || auto_handle || I'm sorry to hear about your concerns. Please provide more details so we can assist you better.
+gold_016 || escalate || For your query about the availability of the Alexa app in India, you can refer to the link provided earlier for more information.
+gold_123 || escalate || I understand your concern. Music Unlimited is designed to allow for one stream per device. Is this not what you expected?
+gold_064 || escalate || I understand your concern. However, based on the historical cases provided, there is no direct match for your issue regarding the cancellation of an order that contribute
+gold_001 || escalate || I'm sorry for the inconvenience with your delivery. We'd like to take a closer look at this. Please reach out to us here: <url>
+gold_008 || escalate || We're sorry to hear about the delay in your delivery. What is the current status of your order showing: <url>
+gold_145 || escalate || Leider liegen noch keine Informationen vor. Bleib einfach bei uns und du verpasst Nichts.
+gold_101 || auto_handle || I understand your concern. Could you please check the latest tracking information for your package: <url> If you have any updates, let us know.
+gold_134 || escalate || ご迷惑をおかけして申し訳ありません。ケースが破損していた場合、Amazon発送商品についてはサイト上より交換もしくは返品を承ります。お手数ですが以下リンクをご参照ください。
+gold_090 || escalate || I understand your concern about the fluctuation in prices during lightning deals. We appreciate your feedback and will share it internally. However, we don't have suffici
+gold_120 || escalate || Uh oh! Sometimes packages are left out of sight. Have you checked the areas and information here: <url> ?
+gold_169 || escalate || I understand your concern about the delivery times for Prime orders. Have you had a chance to report these occurrences with us?: <url>
+gold_157 || escalate || I understand your concern. Could you please provide your order number so we can look into this further? Without your order details, I'm unable to provide a specific resol
+gold_022 || auto_handle || I understand your frustration. Please use the link provided to update your details: <url>. I'll escalate this to our team for further assistance.
+gold_027 || escalate || I understand your concern. Please provide your order details so we can investigate this issue further. If you haven't received your product, we'll look into why the deliv
+gold_018 || escalate || I understand you're frustrated. Could you please check if you received an email confirming the cancellation? If not, we can look into that for you.
+gold_121 || escalate || 申し訳ございませんが、現在の件については似たようなケースが存在しません。ご質問の詳細や具体的な状況をもう少し教えていただけますか？必要に応じて、カスタマーサービスにご相談いただくことも検討いただけます。
+gold_096 || escalate || アマゾンでは支払いの期限はございません。支払いに関するご質問がございましたら、カスタマーサービスまでお問い合わせください。
+gold_041 || escalate || I understand your concern. Two-day shipping typically refers to the transit time after the order ships. Could you please check your tracking information to see when your 
+gold_028 || auto_handle || We understand your concern about the pricing discrepancy. Please visit the link for more information: <url>. Our team will review this issue internally.
+gold_108 || escalate || We send a limited number of invitations each week. Keep an eye on your inbox for the Echo Plus invite.
+gold_124 || escalate || I understand your concern about the delivery status. It seems like the communication about the delivery location could be improved. I recommend reaching out to us directl
+gold_043 || escalate || Hola <user>, ¿puedes indicar si el producto es vendido y enviado por Amazon o por un vendedor? Esto nos ayudará a asistirte mejor.
+gold_093 || escalate || I understand the urgency of your situation. Please provide your account details so we can assist you further. We consider account details to be personal information. [1/2
+gold_050 || escalate || Hi, understanding your frustration with delivery delays. Could you please specify if this is happening with a particular carrier or if you've noticed this issue with mult
+gold_197 || auto_handle || I'm sorry to hear about your experience, <user>. It sounds like a frustrating situation. Were you given a reason for the delivery delay? If not, we'd like to look into th
+gold_013 || escalate || Lamento mucho que hayas tenido una experiencia desagradable. Por favor, envía tus datos aquí para que podamos reportar la situación: <url>
+gold_139 || escalate || Hi, I understand you're experiencing issues with your Amazon Prime Now order. Have you checked if your Prime membership was properly cancelled? You can follow the steps o
+gold_091 || auto_handle || Hi, it seems your order is still in transit. Was your order fulfilled by Amazon or a third-party seller? Could you check the tracking information to see where your packag
+gold_126 || escalate || I understand your concern, but based on the guidelines provided, negative reviews related to delivery issues are not accepted. You can find more details here: <url> If yo
+gold_079 || escalate || I understand your frustration with Prime shipping not arriving on time. Have you reported this issue to us before?
+gold_083 || escalate || We understand your frustration with the ads you're seeing. However, we can only address issues related to your Prime membership. Please provide more details on what speci
+gold_195 || escalate || I understand you're having trouble with your order delivery. We'd be happy to assist you. Please click here to reach our customer service: <url>
+gold_113 || escalate || ご心配をおかけして申し訳ございません。支払い完了メールが届かない場合、お支払い確認メールが届くまでには数時間かかる場合があります。もし数時間経っても反映しない場合は、下記よりカスタマーサービスにお問い合わせください。
+gold_098 || escalate || I understand your concern. Our team will review your order and ensure it is processed correctly. Please report this to our support team here: <url>
+gold_160 || escalate || ご連絡ありがとうございます。本件は返品や返金に関するものではなく、料金未納のための法的手続きへの移行についてです。ご理解いただけますと幸いです。
+gold_117 || escalate || I understand your concerns about the quality of perishables and the price increases. However, based on the historical cases provided, none of them directly address issues
+gold_144 || escalate || I understand your concern. The exchange offer for your Nexus 5 resulted in a higher price. Please check the email for the details of the offer. If you have any further is
+gold_173 || escalate || I understand you're having trouble accessing your purchased soundtrack. I'll escalate this to a human agent for further assistance as the issue seems to require more deta
+gold_125 || escalate || We understand your concern. However, based on the historical cases provided, there is no direct precedent for a refund request for a Prime Week quiz contest winner. Pleas
+gold_194 || auto_handle || I understand your concern about the pricing. However, based on the historical cases, there is no clear precedent for addressing price fluctuations during sales events. I 
+gold_073 || escalate || We understand your concern regarding the delay in refund. Please share your order details via the link shared by our colleague 'YP', and we will check this for you.
+gold_048 || escalate || I understand you're having trouble with your account. Please give us a call here to discuss further: <url>
+gold_136 || escalate || I understand your concern. Please click here to proceed with the troubleshooting: <url> We'll assist you in resolving the issue with your Kindle Fire.
+gold_062 || escalate || I'm sorry to hear that you didn't receive the earrings as expected. Please share your feedback here so we can look into this further: <url>

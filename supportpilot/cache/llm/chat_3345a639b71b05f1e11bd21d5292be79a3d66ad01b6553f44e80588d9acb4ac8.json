@@ -1,0 +1,1 @@
+{"content": "{\n  \"relevance\": 5,\n  \"groundedness\": 1,\n  \"actionability\": 3,\n  \"brand_consistency\": 3,\n  \"safety\": 5,\n  \"concision\": 3,\n  \"reason\": \"The reply is relevant but groundedness is 1 because it invents a request for an order number which is not a standard first step and not grounded in the historical evidence.\"\n}"}
