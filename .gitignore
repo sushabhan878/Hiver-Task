@@ -1,7 +1,8 @@
-@"
 # Large raw datasets (>100MB exceeds GitHub limits)
 data/raw/*.parquet
 data/interim/
+supportpilot/data/raw/*.parquet
+supportpilot/data/interim/
 
 # Python & Environment
 __pycache__/
@@ -30,6 +31,8 @@ cache/llm/tmp/
 # Generated reports
 reports/predictions.json
 reports/agent_traces.json
+supportpilot/reports/predictions.json
+supportpilot/reports/agent_traces.json
 
 # OS & Editor files
 .DS_Store
@@ -37,4 +40,4 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
-"@ | Out-File -FilePath .gitignore -Encoding utf8
+.git-old-empty/
